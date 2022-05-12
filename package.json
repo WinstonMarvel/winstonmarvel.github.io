@@ -4,7 +4,11 @@
   "description": "Winston's website",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"Not implemented yet\""
+    "build": "npx @11ty/eleventy",
+    "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --watch",
+    "start": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/WinstonMarvel/winstonmarvel.github.io/issues"
   },
-  "homepage": "https://github.com/WinstonMarvel/winstonmarvel.github.io#readme"
+  "homepage": "https://github.com/WinstonMarvel/winstonmarvel.github.io#readme",
+  "devDependencies": {
+    "luxon": "^2.4.0",
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-navigation": "^0.3.3"
+  }
 }
