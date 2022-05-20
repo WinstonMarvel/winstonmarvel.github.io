@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/WinstonMarvel/winstonmarvel.github.io#readme",
   "devDependencies": {
-    "luxon": "^2.4.0",
     "@11ty/eleventy": "^1.0.1",
-    "@11ty/eleventy-navigation": "^0.3.3"
+    "@11ty/eleventy-navigation": "^0.3.3",
+    "bulma": "^0.9.4",
+    "eleventy-sass": "^1.2.1",
+    "luxon": "^2.4.0"
   }
 }

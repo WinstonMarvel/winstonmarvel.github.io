@@ -1,12 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Home | Winston Jude</title>
+  <meta name="description" content="Bible, web design and much more">
+  <meta name="author" content="Winston Jude">
+
+  {% comment %} <meta property="og:title" content="A Basic HTML5 Template">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="this url">
+  <meta property="og:description" content="A simple HTML5 Template for new projects.">
+  <meta property="og:image" content="image.png"> {% endcomment %}
+{% comment %} 
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> {% endcomment %}
+
+  <link rel="stylesheet" href= {{'"./css/style.css"'}} />
+
 </head>
+
 <body>
+    {{ title }}
     {{ content }}
 </body>
 </html>
