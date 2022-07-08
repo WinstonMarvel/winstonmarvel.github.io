@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="en" class="has-navbar-fixed-top">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,12 +19,81 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png"> {% endcomment %}
 
-  <link rel="stylesheet" href= {{'"./css/style.css"'}} />
-
+  <link rel="stylesheet" href= {{'"/css/style.css"'}} />
 </head>
 
 <body>
-    {{ title }}
+    <header>
+            <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation"> 
+                <div class="container">
+                    <div class="navbar-brand is-one-quarter">
+                        <a href="/" class="navbar-item">
+                            Winston Jude
+                        </a>
+                    </div>
+
+                    <div class="navbar-menu" id="mainMenu">
+                        <ul class="navbar-end">
+                            <li class="navbar-item"><a href="">About</a></li>
+                            <li class="navbar-item"><a href="">Christianity</a></li>
+                            <li class="navbar-item"><a href="">My Story</a></li>
+                            <li class="navbar-item"><a href="">Hire me!</a></li>   
+                            <li class="navbar-item"><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainMenu">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+            </nav>
+    </header>
+
     {{ content }}
+
+    <footer class="footer pt-5 pb-0 px-0">
+        <div class="container is-max-desktop py-5"> 
+            <div class="footer-nav columns is-justify-content-space-between">
+                <div class="column is-3">
+                    <p>
+                        <h4 class="subtitle is-4">Links</h4>
+                       <a href="">About</a>
+                       <a href="">Christianity</a>
+                       <a href="">My Story</a>
+                       <a href="">Hire me!</a>   
+                       <a href="">Contact</a>
+                    </p>
+                </div>
+                <div class="column is-3">
+                    <p>
+                        <h4 class="subtitle is-4">Categories</h4>
+                        <a href="">Faith</a>
+                        <a href="">Hope</a>
+                        <a href="">Anxiety</a>
+                    </p>
+                </div>
+                <div class="column is-3">
+                    <p>
+                        <h4 class="subtitle is-4">Tags</h4>
+                        <a href="">something</a>
+                        <a href="">something</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="end-block content has-text-centered has-text-white pt-5">
+            <p><a href="/">Credits</a> | <a href="/">Privacy Policy</a> | <a href="/">Contact</a></p>
+            <p class="is-size-7">
+            The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+            <p class="is-size-7 pt-0 mt-0">Winston Jude 2022</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src= {{'"/js/script.js"'}} />
 </body>
 </html>

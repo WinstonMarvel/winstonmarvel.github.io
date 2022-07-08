@@ -2,4 +2,115 @@
 layout: layouts/default.liquid
 title: Let's test this
 ---
-<h2> This is a test file </h2>
+<section class="section-1 section is-medium">
+    <h1 class="title has-text-white">Large section</h1>
+    <h2 class="subtitle has-text-white">
+        A simple container to divide your page into <strong class="has-text-white">sections</strong>, like the one you're currently reading.
+    </h2>
+</section>
+
+
+<div class="container is-max-desktop">
+    <section class="section columns is-centered is-max-desktop">
+        <div class="column is-half">
+            <div class="field">
+                <label class="label">Name</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Text input">
+                </div>
+                </div>
+
+                <div class="field">
+                <label class="label">Username</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+                    <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                    </span>
+                </div>
+                <p class="help is-success">This username is available</p>
+                </div>
+
+                <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                    <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                    </span>
+                    <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                </div>
+                <p class="help is-danger">This email is invalid</p>
+                </div>
+
+                <div class="field">
+                <label class="label">Subject</label>
+                <div class="control">
+                    <div class="select">
+                    <select>
+                        <option>Select dropdown</option>
+                        <option>With options</option>
+                    </select>
+                    </div>
+                </div>
+                </div>
+
+                <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                    <textarea class="textarea" placeholder="Textarea"></textarea>
+                </div>
+                </div>
+
+                <div class="field">
+                <div class="control">
+                    <label class="checkbox">
+                    <input type="checkbox">
+                    I agree to the <a href="#">terms and conditions</a>
+                    </label>
+                </div>
+                </div>
+
+                <div class="field">
+                <div class="control">
+                    <label class="radio">
+                    <input type="radio" name="question">
+                    Yes
+                    </label>
+                    <label class="radio">
+                    <input type="radio" name="question">
+                    No
+                    </label>
+                </div>
+                </div>
+
+                <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-link">Submit</button>
+                </div>
+                <div class="control">
+                    <button class="button is-link is-light">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<section class="section-1 section is-small columns level">
+    <div class="column level-item">
+        <h1 class="title is-2 is-spaced has-text-white"><span class="title is-5 has-text-white">Yo!</span><br/> I'm Winston. </h1>
+        <div class="subtitle is-5 is-spaced has-text-white mt-5 pr-6 mr-6">
+            Full-stack developer on weekdays. <br/>Freelance web developer and consultant on weekdays. <br/><strong class="has-text-white">But... follower of Jesus Christ 24*7.</strong>
+        </div>
+    </div>
+    <div class="column level-item">
+        <figure class="image is-rounded winston-home-banner">
+            <img class="is-rounded" src={{'/img/winston.jpg'}} alt="Winston Jude">
+        </figure>
+    </div>
+</section>

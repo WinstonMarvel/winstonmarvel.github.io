@@ -4,8 +4,9 @@ const eleventySass = require('eleventy-sass')
 
 module.exports = (eleventyConfig) => {
     
-    // Copy the `img` and `css` folders to the output
-    eleventyConfig.addPassthroughCopy("img");
+    // Copy the `img` and `js` folders to the output
+    eleventyConfig.addPassthroughCopy("web/img");
+    eleventyConfig.addPassthroughCopy("web/js");
 
     eleventyConfig.addPlugin(pluginNavigation);
 
