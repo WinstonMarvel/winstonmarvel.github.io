@@ -15,6 +15,18 @@ module.exports = (eleventyConfig) => {
       return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
     });
 
+    // Create a collection of categories
+    eleventyConfig.addCollection("categories", (collectionApi) => {
+        const categories = new Set();
+        const posts = collectionApi.getFilteredByTag('post');
+        for(const post of posts) {
+            for(const c of post.data.categories) {
+                categories.add(c)
+            }
+        }
+        return [...categories];
+    });
+
     // Compile SCSS
     eleventyConfig.addPlugin(eleventySass);
 

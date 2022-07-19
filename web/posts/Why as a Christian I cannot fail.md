@@ -1,3 +1,11 @@
+---
+title: Why as a Christian I cannot fail
+date: 2022-06-20
+categories: ["Holy Spirit","Dissapointment"]
+tags: post
+featured_image: "placeholder.jpg"
+---
+
 # Why as a Christian I cannot fail...
 
 Holy spirit is like a float

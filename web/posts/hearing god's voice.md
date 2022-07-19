@@ -1,3 +1,11 @@
+---
+title: Hearing God's voice
+date: 2022-07-08
+categories: ["Holy Spirit"]
+tags: post
+featured_image: "placeholder.jpg"
+---
+
 # Hearing God's voice
 
 Paul and Barnabas

@@ -1,19 +1,5 @@
 ---
 layout: layouts/core/base.liquid
+permalink: "/{{ title | slugify }}/"
 ---
-
-<div class="container mb-6">
-    <div class="columns is-centered is-multiline mt-6">
-        <div class="column is-flex is-justify-content-center pb-0">
-            <figure class="image is-64x64">
-                <img src={{'/img/bible.png'}} alt="Bible">
-            </figure>
-        </div>
-    </div>
-    <div>
-        <h2 class="title is-2 has-text-centered"> <span class="title is-4">Hey there!</span><br/> Welcome</h1>
-        <p class="has-text-centered mb-5">You'll find my articles, unfinished Bible notes <br /> and other Jesus-related stuff here.</p>
-        <a class="button is-centered is-dark">Start Reading</a>
-    </div>
-</div>
-{{ content }}
+{{ content }} 
