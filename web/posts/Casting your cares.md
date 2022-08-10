@@ -3,7 +3,6 @@ title: Casting your cares
 date: 2022-07-04
 categories: ["worry", "anxiety", "hope"]
 tags: post
-permalink: "/{{ title | slugify }}/"
 ---
 
 # Casting your cares upon him
