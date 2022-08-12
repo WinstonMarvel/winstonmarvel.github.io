@@ -1,7 +1,6 @@
 @import "_base"
 @import "../../node_modules/bulma/bulma"
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap')
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap')
 html
     background: #fff
 
@@ -11,6 +10,7 @@ header
         background: $color-black
         box-shadow: 0px 0px 5px 1px rgba(106, 103, 103, 0.7)
         #mainMenu
+            font-family: $font-secondary
             .navbar-item a, .navbar-item a:link
                 color: white
                 &:hover, &:active
@@ -24,7 +24,8 @@ header
 .banner
     background: black bottom/cover no-repeat
     min-height: 38vh
-    font-family: $font-pacifico
+    h2
+        font-family: $font-pacifico
     .heart
         width: 100%
     svg
