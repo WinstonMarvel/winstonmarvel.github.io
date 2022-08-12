@@ -1,0 +1,26 @@
+<div class="social-share-floating-bar hidden-sm hidden-xs">
+    {% assign path = title | slugify %}
+    {% assign share_url = 'https://winstonmarvel.com/posts/' | append: path | url_encode  %}
+    {% assign share_title = title | append: " by @WinstonMarvel" | url_encode %}
+
+    <a class="{% if include.text_label %}share-btn{% endif %} share-btn-twitter"
+    rel="noopener"
+        href="https://twitter.com/intent/tweet?url={{ share_url }}&text={{ share_title }}"  
+        target="_blank">
+    <i class="fab fa-twitter"></i>
+    {% if include.text_label %}Tweet{% endif %}
+    </a>
+    <a class="{% if include.text_label %}share-btn{% endif %} share-btn-facebook"
+    rel="noopener"
+    href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}&title={{ share_title }}" target="_blank">
+    <i class="fab fa-facebook"></i>
+    {% if include.text_label %}Share{% endif %}
+
+    </a>
+    <a class="{% if include.text_label %}share-btn{% endif %} share-btn-linkedin"
+    rel="noopener"
+    href="http://www.linkedin.com/sharing/share-offsite?url={{ share_url }}" target="_blank">
+    <i class="fab fa-linkedin"></i>
+    {% if include.text_label %}Share{% endif %}
+    </a>
+</div>

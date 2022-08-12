@@ -3,9 +3,19 @@ layout: layouts/core/base.liquid
 permalink: "/posts/{{ title | slugify }}/"
 ---
 
-<article class="container px-5 pt-5 mt-5">
+<section class="banner is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-center">
+    <h2 class="title is-3 has-text-centered has-text-white has-text-weight-normal">Everlasting love
+        <div class="heart">
+            <span class="fas fa-heart"></span>
+        </div>
+    </h2>
+</section>
+
+{% include 'social-share' %}
+
+<article class="post container px-5 pt-5 mt-5 pb-5">
     <div class="content post-content mb-5">
-        <h1 class="title is-2 is-spaced mb-3">{{title}}</h1>
+        <h1 class="title mt-5 is-3 is-spaced mb-3">{{title}}</h1>
         <div class="featured-image mb-5">
             <div class="post-meta is-spaced mb-3">
                 <span class="by-line">By Winston Jude </span>
@@ -16,3 +26,7 @@ permalink: "/posts/{{ title | slugify }}/"
         {{ content }} 
     </div>
 </article>
+
+<section class="comments">
+    <div data-chirpy-comment="true" class="container px-3"></div>
+</section>
