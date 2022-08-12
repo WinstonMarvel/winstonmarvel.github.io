@@ -1,0 +1,51 @@
+// Fonts
+$font-pacifico: 'Pacifico', cursive
+$font-open-sans:  'Open Sans', sans-serif
+
+$family-primary: $font-open-sans
+
+// Colors
+$color-blue: hsl(201deg 44% 46%)
+$color-black: hsl(0deg, 0%, 21%)
+$color-white: #fff
+
+
+html
+    scroll-behavior: smooth
+
+a 
+    &:target, &:link, &:active, &:visited
+        color: $color-blue
+    &:hover, &:focus, .is-hover
+        color: darken($color-blue, 30%)
+    .bg-custom-dark &, .bg-dark &
+        &:target, &:link, &:active, &:visited
+            color: lighten($color-blue, 10%)
+        &:hover, &:focus, .is-hover
+            color: lighten($color-blue, 30%)
+
+// Button styles
+a.button, button, .button
+    &.is-blue
+        background-color: $color-blue
+        border-color: transparent
+        color: #fff
+
+    &.is-blue:hover, &.is-blue.is-hovered
+        background-color: $color-black
+        border-color: transparent
+        color: #fff
+
+    &.is-blue-inverted
+        @extend .is-blue
+
+    &.is-blue-inverted:hover, &.is-blue-inverted.is-hovered
+        @extend .is-light
+    &.is-centered
+        display: table
+        margin-left: auto
+        margin-right: auto
+
+// Stlye utils
+.bg-custom-dark
+    background: $color-black

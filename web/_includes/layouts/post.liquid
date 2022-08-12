@@ -3,8 +3,16 @@ layout: layouts/core/base.liquid
 permalink: "/posts/{{ title | slugify }}/"
 ---
 
-<div class="container px-5 pt-5 mt-5">
-    <div class="content post-content">
-            {{ content }} 
+<article class="container px-5 pt-5 mt-5">
+    <div class="content post-content mb-5">
+        <h1 class="title is-2 is-spaced mb-3">{{title}}</h1>
+        <div class="featured-image mb-5">
+            <div class="post-meta is-spaced mb-3">
+                <span class="by-line">By Winston Jude </span>
+                <span class="on ">on {{ date | date: "%B %d, %Y" }} </span>
+            </div>
+            <img src="/img/blog/{{featured_image}}" alt="{{title}}" class="image">
+        </div>
+        {{ content }} 
     </div>
-</div>
+</article>

@@ -6,8 +6,6 @@ tags: post
 featured_image: "placeholder.jpg"
 ---
 
-# Hearing God's voice
-
 Paul and Barnabas
 
 - Acts 13 - The prophets and teachers of the church in Antioch fasted and set apart them both. Laid hands on them and sent them off (Sent out by the Holy Spirit)

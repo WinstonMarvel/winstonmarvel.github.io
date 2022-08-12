@@ -1,12 +1,6 @@
-@import "_overrides"
+@import "_base"
 @import "../../node_modules/bulma/bulma"
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap')
-
-
-.button.is-centered
-    display: table
-    margin-left: auto
-    margin-right: auto
 
 
 header
@@ -25,16 +19,32 @@ header
             font-size: 28px
             font-family: $font-pacifico
 
+@media screen and ( max-width: 1023px)
+    header .navbar-brand
+        margin-bottom: -60px         
+    header .navbar-menu
+        margin-top: 60px      
+        background: $color-black 
+    header a.navbar-burger
+        color: $color-white
 
 figure.winston-home-banner  img
     max-width: 400px
 
-.bg-custom-dark
-    background: $color-black
+.section-anxiety 
+    .column-1
+        padding-top: 4.5em
+    img 
+        max-width: 300px
+        margin: 0 auto
 
-footer .footer-nav a 
-    display: block 
+#Contact
+    h2 > svg
+        color: $color-blue
 
+@media screen and ( max-width: 1023px)
+    .section-anxiety 
+        padding-top: 0 
 
 #About p
     font-style: italic
@@ -50,6 +60,9 @@ footer .footer-nav a
         line-height: 1.5
     &, &:link, &:active, &:hover
         color: inherit
+
+.featured-image
+    max-width: 500px
 
 .post-content
     max-width: 700px
@@ -69,3 +82,5 @@ footer .footer-nav a
     p:not(:last-child)
         margin-bottom: 2em
 
+footer .footer-nav a 
+    display: block 

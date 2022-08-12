@@ -3,7 +3,7 @@ layout: layouts/core/base.liquid
 title: Welcome Home!
 ---
 
-<div class="container mb-6">
+<section class="container mb-6">
     <div class="columns is-centered is-multiline mt-6">
         <div class="column is-flex is-justify-content-center pb-0">
             <figure class="image is-64x64">
@@ -14,21 +14,30 @@ title: Welcome Home!
     <div>
         <h2 class="title is-2 has-text-centered"> <span class="title is-4">Hey there!</span><br/> Welcome</h2>
         <p class="has-text-centered mb-5">You'll find my articles, unfinished Bible notes <br /> and other Jesus-related stuff here.</p>
-        <a class="button is-centered is-dark" href="/posts/">Start Reading</a>
+        <a class="button is-centered is-blue" href="/posts/">Start Reading</a>
     </div>
-</div>
+</section>
 
-<section class="section is-medium bg-custom-dark">
-    <h2 class="title has-text-white">Struggling with anxiety and worry?</h2>
-    <p class="subtitle has-text-white mt-5">
-        When you pass through the waters, God will be with you. Even in the rivers, they cannot overwhelm you. <br/> Not one of God's plans can be thwarted. Read on to know how you can trust God today!
-    </p>
-    <a class="button is-light" href="/posts/">Read more</a>
+<section class="section is-medium bg-custom-dark section-anxiety">
+    <div class="columns">
+        <div class="column column-1">
+            <h2 class="title has-text-white">Struggling with anxiety and worry?</h2>
+            <p class="subtitle has-text-white mt-5">
+                When you pass through the waters, God will be with you. Even in the rivers, they cannot overwhelm you. <br/> Not one of God's plans can be thwarted. Read on to know how you can trust God today!
+            </p>
+            <a class="button is-blue-inverted" href="/posts/">Read more</a>
+        </div>
+        <div class="column column-2">
+            <img class="image" src="/img/stress.png" alt="Anxiety">
+        </div>
+    </div>
+    
 </section> 
 
 
-<div id="Contact" class="container is-max-desktop mt-5">
-    <h2 class="title has-text-centered is-3 is-spaced mt-5 pt-5">Write me a Message</h2>
+<section id="Contact" class="container is-max-desktop mt-5">
+    <h2 class="title has-text-centered is-3 is-spaced mt-5 pt-5">Write me a Message <br><span class="pt-5 fa-solid fa-paper-plane fa-lg"></span></h2>
+    
     <section class="section columns is-centered is-max-desktop">
         <div class="column is-half">
             <form action="https://usebasin.com/f/6a6af5c970b8" method="POST"
@@ -37,59 +46,55 @@ title: Welcome Home!
                 <div class="field">
                     <label class="label">Name</label>
                     <div class="control">
-                        <input class="input" type="text" name="name" placeholder="Enter your name">
+                        <input class="input" type="text" name="name" placeholder="Enter your name" required>
                     </div>
                     </div>
 
                     <div class="field">
                         <label class="label">Email</label>
                         <div class="control has-icons-left has-icons-right">
-                            <input class="input is-danger" name="email" type="email" placeholder="Email">
+                            <input class="input" name="email" type="email" placeholder="Email" required>
                             <span class="icon is-small is-left">
                             <i class="fas fa-envelope"></i>
                             </span>
-                            <span class="icon is-small is-right">
-                            <i class="fas fa-exclamation-triangle"></i>
-                            </span>
                         </div>
-                        <p class="help is-danger">This email is invalid</p>
                     </div>
 
 
                     <div class="field">
                     <label class="label">Message</label>
                     <div class="control">
-                        <textarea class="textarea" name="message" placeholder="What would you like to tell me..."></textarea>
+                        <textarea class="textarea" name="message" placeholder="What would you like to tell me..." required></textarea>
                     </div>
                     </div>
 
                     <div class="field is-grouped">
                     <div class="control">
-                        <button class="button is-link">Submit</button>
+                        <button class="button is-blue" type="submit">Submit</button>
                     </div>
                 </div>
             </form>
         </div>
     </section>
-</div>
+</section>
 
-<div class="bg-custom-dark">
+<section class="bg-custom-dark">
     <div class="container is-max-desktop ">
         <section id="About" class="section-1 section is-small columns level">
-            <div class="column level-item">
+            <div class="column level-item px-2">
                 <h2 class="title is-2 is-spaced has-text-white"><span class="title is-5 has-text-white">Hi-Ya!</span><br/> I'm Winston. </h2>
                 <div class="subtitle is-5 is-spaced has-text-white mt-5 pr-6 mr-6">
                     <p> I serve as a disciple of Jesus 24 x 7. </p> 
                     <p>During the week, I work as a full-stack developer. I worked as freelance web developer/consultant in the past and I no longer do. But I still may be able to help you... write me a message? ;)</p> 
                 </div>
             </div>
-            <div class="column level-item">
+            <div class="column level-item px-2">
                 <figure class="image is-rounded winston-home-banner">
                     <img class="is-rounded" src={{'/img/winston.jpg'}} alt="Winston Jude">
                 </figure>
             </div>
         </section>
     </div>
-</div>
+</section>
 
 

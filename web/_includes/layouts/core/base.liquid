@@ -20,6 +20,8 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png"> {% endcomment %}
 
   <link rel="stylesheet" href= {{'"/css/style.css"'}} />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/svg-with-js.min.css" integrity="sha512-YhTJO2S6UzEZDGOYCBmb5KMqKnvix8bVnI2NKJmLXdp8UTPOnU2aBXQI2w3p6K0zjvYdpqZXNXVEwxo37PGAOQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <header>
@@ -33,10 +35,10 @@
 
                     <div class="navbar-menu" id="mainMenu">
                         <ul class="navbar-end">
+                            <li class="navbar-item"><a href="/posts">Posts</a></li>
+                            <li class="navbar-item"><a href="/Christianity">Christianity</a></li>
+                            <li class="navbar-item"><a href="/my-story">My Story</a></li>
                             <li class="navbar-item"><a href="/#About">About</a></li>
-                            <li class="navbar-item"><a href="/#Christianity">Christianity</a></li>
-                            <li class="navbar-item"><a href="/#My-Story">My Story</a></li>
-                            <li class="navbar-item"><a href="/#Contact">Hire me!</a></li>   
                             <li class="navbar-item"><a href="/#Contact">Contact</a></li>
                         </ul>
                     </div>
@@ -53,7 +55,7 @@
     {{ content }}
 
     <footer class="footer pt-5 pb-0 px-0">
-        <div class="container is-max-desktop py-5 mb-5"> 
+        <div class="container is-max-desktop py-5 px-4 mb-5"> 
             <div class="footer-nav columns is-justify-content-space-between">
                 <div class="column is-3">
                     <p>
@@ -82,8 +84,8 @@
                 </div>
             </div>
         </div>
-        <div class="content bg-custom-dark has-text-centered has-text-white pt-5 pb-3">
-            <p><a href="/">Credits</a> | <a href="/">Privacy Policy</a> | <a href="/">Contact</a></p>
+        <div class="content bg-custom-dark has-text-centered has-text-white pt-5 px-4 pb-3">
+            <p><a href="/credits">Credits</a> | <a href="/">Privacy Policy</a> | <a href="/">Contact</a></p>
             <p class="is-size-7">
             The source code is licensed
             <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
@@ -93,6 +95,6 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src= {{'"/js/script.js"'}} />
+    <script type="text/javascript" src= {{'"/js/script.js"'}} ></script>
 </body>
 </html>
