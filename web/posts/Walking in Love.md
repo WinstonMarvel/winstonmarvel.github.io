@@ -6,31 +6,15 @@ tags: post
 featured_image: "placeholder.jpg"
 ---
 
-
-
-Prelude
-
-6 Train up a child in the way he should go: and when he is old, he will not depart from it.
-
-- SQL
-
-- 7th standard he taught me  C programming
-
-- Always like spending time with us, watching movies, playing sports
-
-60 appears 32 times in the Bible. It's significant. In God's kingdom 60 is just the beginning. The best is yet to come
-
-Really good father and a good representation of Christ. And so it's a blessing and we celebrate it.
-
-Who our heavenly father is though
-
-# Walking in Love
+## Walking in Love
 
 Agape - Unconditional love of the Father in us
+Chesed - God's special kind of love - often translated steadfast love or lovingkindness
 
 ### What is love?
 
-Jesus Christ himself 
+Jesus Christ himself.
+
 1 John 4:9 - God sent his only begotten son 
 
 Examples of Love

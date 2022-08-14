@@ -1,6 +1,7 @@
 ---
-layout: layouts/post.liquid
+layout: layouts/default.liquid
 title: Credits
+tags: 
 ---
 
 # Credits
@@ -10,3 +11,9 @@ title: Credits
 
 ### Images
 - Anxious Boy: Image by <a href="https://pixabay.com/users/17959117-17959117/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6204400">Urhan TV</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6204400">Pixabay</a>
+
+
+### Images used in the Articles
+- Boy Swimming: Image by <a href="https://pixabay.com/users/michelle_maria-165491/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=921623">Michelle Raponi</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=921623">Pixabay</a>
+
+- Float: Image by <a href="https://pixabay.com/users/mariakray-23567841/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6810145">Maria</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6810145">Pixabay</a>
