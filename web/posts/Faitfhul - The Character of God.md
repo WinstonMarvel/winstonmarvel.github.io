@@ -6,7 +6,7 @@ tags: post
 featured_image: "placeholder.jpg"
 ```
 
-# Faitfhul - The Character of God
+# Faithful - The Character of God
 
 ### God's character defined in Exodus
 
@@ -25,6 +25,8 @@ featured_image: "placeholder.jpg"
 - [New American Standard Bible](https://biblehub.com/nasb_/deuteronomy/32.htm)  
   “The Rock! His work is perfect, For all His ways are just; A God of faithfulness and without injustice, Righteous and just is He.
 
+- Ps 31:5 says El Emet -> God of faithfulness
+
 ### He'emin
 
 - Hebrew word for trust is the verb form of Emet translated in English as 'to believe or to have faith' but it's most basic foundational meaning is just to consider someone as trustworthy. Abraham He'emins God. He considers God trustworthy. 
@@ -39,8 +41,6 @@ featured_image: "placeholder.jpg"
 
 - Romans 15: 8 -9 Came on behalf of God's faithfulness
 
-
-
 ### Faithfulness
 
 - Faithfulness comes from the place of God being unshakeable and trustworthy. He is truth and cannot deny himself (2 Tim 2:13).
@@ -51,22 +51,20 @@ featured_image: "placeholder.jpg"
   
   If we are faithless, he remains faithful— for he cannot deny himself.
 
-
-
 ### Verses to meditate upon
 
 Duet 7:9 Know therefore that the LORD your God is God, the faithful God who keeps covenant and steadfast love with those who love him and keep his commandments, to a thousand generations,
 
 Ex 20:6 But showing steadfast love to thousands of those who love me and keep my commandments.
 
+Num 23:19  God is not man, that he should lie, or a son of man, that he should change his mind. Has he said, and will he not do it? Or has he spoken, and will he not fulfill it? 
 
+Psa 31:3  For you are my rock and my fortress; and for your name's sake you lead me and guide me; 
+
+Psa 31:5  Into your hand I commit my spirit; you have redeemed me, O LORD, faithful God.  -> HIs name is El Emet (God of faithfulness/truth)
 
 ### Our action items
 
 Proverbs 3:3-4
 
 Let not steadfast love and faithfulness forsake you; bind them around your neck; write them on the tablet of your heart. So you will find favor and good success in the sight of God and man.
-
-
-
-
