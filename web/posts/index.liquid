@@ -19,22 +19,24 @@ permalink: "/posts/"
                 {% assign background = "/img/blog/placeholder.jpg" %}
             {% endif} 
             
-            {% assign background_position = 'center' %}
-            {% if randomizer == 1 %}
-                {% assign background_position = 'left' %}
+            {% assign background_position = '' %}
+            {% if randomizer == 0 %}
+                {% assign background_position = 'placeholder-center' %}
+            {% elsif randomizer == 1 %}
+                {% assign background_position = 'placeholder-left' %}
             {% elsif randomizer == 2  %}
-                {% assign background_position = 'right' %}
+                {% assign background_position = 'placeholder-right' %}
             {% elsif randomizer == 3  %}
-                {% assign background_position = 'bottom' %}
-            {% elsif randomizer == 0  %}
-                {% assign background_position = 'top' %}
+                {% assign background_position = 'placeholder-bottom' %}
+            {% elsif randomizer == 4  %}
+                {% assign background_position = 'placeholder-top' %}
             {% endif %}
 
-                <a href="{{post.url}}" class="box">
-                    <div style="background-image: url('{{background}}'); background-position: {{background_position}};" class="mt-1 my-3"> </div>
-                    <h3 class="title is-5 is-spaced mb-3"> {{ post.data.title }} </h3>
-                    <p class="is-spaced"> {{ post.date | date: "%B %d, %Y" }} </p>
-                </a>
+            <a href="{{post.url}}" class="box">
+                <div style="background-image: url('{{background}}');" class="mt-1 my-3 featured-image {{background_position}}"> </div>
+                <h3 class="title is-5 is-spaced mb-3"> {{ post.data.title }} </h3>
+                <p class="is-spaced"> {{ post.date | date: "%B %d, %Y" }} </p>
+            </a>
         {% endfor %}
     </div>
 
