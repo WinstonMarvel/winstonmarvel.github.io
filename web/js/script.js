@@ -1,10 +1,9 @@
 (function () {
-    
 
     /**
      * Mobile navigation menu
      */
-    document.addEventListener('DOMContentLoaded', () => {
+    function initializeMobileMenus() {
         // Get all "navbar-burger" elements
         const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
@@ -22,6 +21,9 @@
 
             });
         });
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+        initializeMobileMenus()
     });
 
 })()

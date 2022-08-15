@@ -34,24 +34,23 @@ header
         display: block
         color: red
         margin: 0 auto
-        
 
 @media screen and ( max-width: 1023px)
     header .navbar-brand
-        margin-bottom: -60px         
+        margin-bottom: -60px
     header .navbar-menu
-        margin-top: 60px      
-        background: $color-black 
+        margin-top: 60px
+        background: $color-black
     header a.navbar-burger
         color: $color-white
 
 figure.winston-home-banner  img
     max-width: 400px
 
-.section-anxiety 
+.section-anxiety
     .column-1
         padding-top: 4.5em
-    img 
+    img
         max-width: 300px
         margin: 0 auto
 
@@ -60,8 +59,8 @@ figure.winston-home-banner  img
         color: $color-blue
 
 @media screen and ( max-width: 1023px)
-    .section-anxiety 
-        padding-top: 0 
+    .section-anxiety
+        padding-top: 0
 
 #About p
     margin-bottom: 1em
@@ -71,7 +70,7 @@ figure.winston-home-banner  img
 .blog-grid a.box
     width: 24%
     display: block
-    div 
+    div
         width: 100%
         height: 9em
     p
@@ -85,6 +84,35 @@ figure.winston-home-banner  img
 .comments
     background: #121212
 
+.column.sidebar
+    margin-top: 5em
+    margin-bottom: 4em
+    position: relative
+    h3.title
+        margin-top: 2em
+    &:before
+        content: ""
+        position: absolute
+        height: 100%
+        width: 5px
+        left: -10px
+        top: 0
+        border-left: 1px solid $color-grey
+
+@media screen and ( max-width: 1023px)
+    .column.sidebar
+        margin-top: 0
+        padding: 0 1.5rem
+        &:before
+            display: none
+
+.recent-posts
+    ul
+        li
+            padding-bottom: 3px
+    span
+        font-weight: 700
+
 .post-content
     max-width: 700px
     margin: 0 auto
@@ -94,7 +122,7 @@ figure.winston-home-banner  img
     h2, h3
         @extend .is-4
         @extend .title
-    
+
     h4, h5, h6
         @extend .is-6
         @extend .title
@@ -102,69 +130,63 @@ figure.winston-home-banner  img
     p:not(:last-child)
         margin-bottom: 2em
 
-footer 
-    .footer-nav a 
+footer
+    .footer-nav a
         display: block
     .extra-links a, .social-icons a
         &:target, &:link, &:active, &:visited
-            color: $color-white 
+            color: $color-white
         &:hover, &:focus, .is-hover
-            color: $color-blue 
-
+            color: $color-blue
 
 //Social share buttons
 .social-share-floating-bar
-  position: fixed
-  top: 50%
-  -webkit-transform: translateY(-50%)
-  transform: translateY(-50%)
-
-  a
-    display: block
-    transition: all 0.3s ease
-    padding: 16px
-    color: #fff
-    font-size: 20px
-    text-align: center
+    position: fixed
+    top: 50%
+    -webkit-transform: translateY(-50%)
+    transform: translateY(-50%)
+    z-index: 999
+    a
+        display: block
+        transition: all 0.3s ease
+        padding: 16px
+        color: #fff
+        font-size: 20px
+        text-align: center
 
 .social-share-btns-container
-  font-size: 14px
-  text-align: center
+    font-size: 14px
+    text-align: center
 
 .social-share-btns
-  display: inline-block
+    display: inline-block
 
-  .share-btn
+.share-btn
     margin: 0 5px
     padding: 4px 8px
     color: #fff
-
     i
-      display: inline-block
-      margin-right: 5px
+        display: inline-block
+        margin-right: 5px
 
 .share-btn
-  background-color: #95a5a6
-
-  &:hover, &:active, &:visited
-    background-color: #798d8f
-    text-decoration: none
+    background-color: #95a5a6
+    &:hover, &:active, &:visited
+        background-color: #798d8f
+        text-decoration: none
 
 .share-btn-twitter
-  background-color: #00aced
-
-  &:hover, &:active, &:visited
-    background-color: #0087ba
+    background-color: #00aced
+    &:hover, &:active, &:visited
+        background-color: #0087ba
 
 .share-btn-facebook
-  background-color: #3b5998
-
-  &:hover, &:active, &:visited
-    background-color: #2d4373
+    background-color: #3b5998
+    &:hover, &:active, &:visited
+        background-color: #2d4373
 
 .share-btn-linkedin
-  background-color: #007bb6
-
-  &:hover, &:active, &:visited
-    background-color: #005983
+    background-color: #007bb6
+    &:hover, &:active, &:visited
+        background-color: #005983
 //End social share buttons
