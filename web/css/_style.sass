@@ -1,10 +1,12 @@
 @import "_base"
 @import "../../node_modules/bulma/bulma"
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap')
+
 html
     background: #fff
+
 .font-special
-    font-family: 'Pacifico '
+    font-family: 'Pacifico'
 
 header
     .navbar
@@ -34,6 +36,11 @@ header
         display: block
         color: red
         margin: 0 auto
+.template-post.banner 
+    h2 span
+        letter-spacing: 3px
+    svg
+        display: inline
 
 @media screen and ( max-width: 1023px)
     header .navbar-brand
@@ -66,6 +73,12 @@ figure.winston-home-banner  img
     margin-bottom: 1em
     letter-spacing: 0px
     font-size: 17px
+    .fa-mug-hot
+        color: #b47f72
+    .fa-face-smile-wink
+        color: #f3d42e
+    .fa-fire
+        color: #f29925
 
 .blog-grid a.box
     width: 24%
