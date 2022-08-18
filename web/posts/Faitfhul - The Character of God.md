@@ -1,10 +1,10 @@
-```yaml
-title: Faitfhul - The Character of God
+---
+title: Faithful - The character of God
 date: 2022-07-23
 categories: ["Faithful"]
 tags: post
 featured_image: "placeholder.jpg"
-```
+---
 
 # Faithful - The Character of God
 
