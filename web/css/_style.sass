@@ -135,6 +135,23 @@ figure.winston-home-banner  img
     span
         font-weight: 700
 
+ul.category-listing
+    -moz-column-count: 3
+    -moz-column-gap: 20px
+    -webkit-column-count: 3
+    -webkit-column-gap: 20px
+    column-count: 3
+    column-gap: 20px
+    page-break-inside: avoid
+    break-inside: avoid-column
+    display:table      
+    margin-left: 0
+    > li
+        break-inside: avoid-column
+        list-style: none
+        a
+            display: block
+
 .post-content
     max-width: 700px
     margin: 0 auto

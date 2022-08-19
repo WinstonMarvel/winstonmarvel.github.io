@@ -3,15 +3,17 @@ layout: layouts/default.liquid
 title: Categories
 ---
 
-<h1>Categories</h1>
+<h1 class="mb-5">Categories</h1>
 
-<ul>
+<ul class="category-listing">
     {% for category in collections.categories reversed %}
-        <li>
-            <h6 id="{{category.title | slugify }}">{{ category.title }}</h6>
-            {% for post in category.posts  %}
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            {% endfor %}
-        <li>
+        <li class="mb-5">
+            <h6 id="{{category.title | slugify }}" class="mb-2">{{ category.title }}</h6>
+            <ul>
+                {% for post in category.posts  %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
     {% endfor %}
 </ul>
