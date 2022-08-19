@@ -2,7 +2,7 @@
 title: Prayer
 date: 2022-07-07
 categories: ["Prayer"]
-tags: post
+tags: notes
 featured_image: "prayer.jpg"
 ---
 

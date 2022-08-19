@@ -1,14 +1,14 @@
 ---
 layout: layouts/default.liquid
-title: Articles
-permalink: "/posts/"
+title: Unfinished Notes
+permalink: "/notes/"
 ---
 
 <div class="container content px-5 pt-5 mt-5">
     <h2 class="title is-3">{{title}}</h2>
      
     <div class="blog-grid is-flex is-justify-content-flex-start is-flex-wrap-wrap">
-        {% for post in collections.post reversed %}
+        {% for post in collections.notes reversed %}
             
             {% if post.data.featured_image %}
                 {% assign background = "/img/blog/" | append: post.data.featured_image %}

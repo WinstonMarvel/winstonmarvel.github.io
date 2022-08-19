@@ -2,7 +2,7 @@
 title: Discouragement
 date: 2022-07-14
 categories: ["Disappointment"]
-tags: post
+tags: notes
 featured_image: "discouragement.jpg"
 ---
 

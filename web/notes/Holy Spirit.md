@@ -2,7 +2,7 @@
 title: Holy Spirit
 date: 2022-06-25
 categories: ["Holy Spirit"]
-tags: post
+tags: notes
 featured_image: "placeholder.jpg"
 ---
 
