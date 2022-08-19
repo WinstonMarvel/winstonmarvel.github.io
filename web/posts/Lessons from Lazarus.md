@@ -1,9 +1,9 @@
 ---
 title: Lessons from the resurrection of Lazurus
-date: 2022-07-04
-categories: ["worry", "anxiety", "hope"]
+date: 2022-08-18
+categories: ["love", "compassion", "hope"]
 tags: post
-featured_image: "stone-throwing.jpg"
+featured_image: "jesus-troubled.jpg"
 ---
 
 ## Lessons from the resurrection of Lazurus

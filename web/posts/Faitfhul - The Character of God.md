@@ -3,7 +3,7 @@ title: Faithful - The character of God
 date: 2022-07-23
 categories: ["Faithful"]
 tags: post
-featured_image: "placeholder.jpg"
+featured_image: "placeholder-cross.jpg"
 ---
 
 # Faithful - The Character of God

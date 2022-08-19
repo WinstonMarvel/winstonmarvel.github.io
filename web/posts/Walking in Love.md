@@ -3,7 +3,7 @@ title: Walking in Love
 date: 2022-06-14
 categories: ["Love", "Grace"]
 tags: post
-featured_image: "placeholder.jpg"
+featured_image: "walking-together.jpg"
 ---
 
 ## Walking in Love

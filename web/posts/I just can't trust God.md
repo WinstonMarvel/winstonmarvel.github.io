@@ -3,7 +3,7 @@ title: I just can't trust God
 date: 2022-07-06
 categories: ["Faith"]
 tags: post
-featured_image: "placeholder.jpg"
+featured_image: "trust.jpg"
 ---
 
 # I just can't trust God
