@@ -1,0 +1,17 @@
+---
+layout: layouts/default.liquid
+title: Categories
+---
+
+<h1>Categories</h1>
+
+<ul>
+    {% for category in collections.categories reversed %}
+        <li>
+            <h6 id="{{category.title | slugify }}">{{ category.title }}</h6>
+            {% for post in category.posts  %}
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            {% endfor %}
+        <li>
+    {% endfor %}
+</ul>

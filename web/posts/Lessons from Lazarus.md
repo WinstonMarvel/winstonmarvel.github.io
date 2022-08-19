@@ -1,7 +1,7 @@
 ---
 title: Lessons from the resurrection of Lazurus
 date: 2022-08-18
-categories: ["love", "compassion", "hope"]
+categories: ["Love", "Compassion", "Hope"]
 tags: post
 featured_image: "jesus-troubled.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: Casting your cares
 date: 2022-07-04
-categories: ["worry", "anxiety", "hope"]
+categories: ["Worry", "Anxiety", "Hope"]
 tags: post
 featured_image: "stone-throwing.jpg"
 ---

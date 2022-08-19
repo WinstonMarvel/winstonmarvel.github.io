@@ -36,6 +36,7 @@
                     <div class="navbar-menu" id="mainMenu">
                         <ul class="navbar-end">
                             <li class="navbar-item"><a href="/posts">Posts</a></li>
+                            <li class="navbar-item"><a href="/notes">Bible Notes</a></li>
                             <li class="navbar-item"><a href="/Christianity">Christianity</a></li>
                             <li class="navbar-item"><a href="/my-story">My Story</a></li>
                             <li class="navbar-item"><a href="/#About">About</a></li>
@@ -59,7 +60,7 @@
             <div class="footer-nav columns is-justify-content-space-between">
                 <div class="column is-3">
                     <p>
-                        <h4 class="subtitle is-4">Links</h4>
+                       <h4 class="subtitle is-4">Links</h4>
                        <a href="/#About">About</a>
                        <a href="/#Christianity">Christianity</a>
                        <a href="/#My-Story">My Story</a>
@@ -70,16 +71,20 @@
                 <div class="column is-3">
                     <p>
                         <h4 class="subtitle is-4">Categories</h4>
-                        <a href="">Faith</a>
-                        <a href="">Hope</a>
-                        <a href="">Anxiety</a>
+                        {% for category in collections.categories reversed limit:6 %}
+                            <a href="/categories#{{category.title | slugify }}">{{ category.title }}</a>
+                        {% endfor %}
+                        <a href="/categories/">See all...</a>
+
                     </p>
                 </div>
                 <div class="column is-3">
                     <p>
-                        <h4 class="subtitle is-4">Tags</h4>
-                        <a href="">something</a>
-                        <a href="">something</a>
+                        <h4 class="subtitle is-4">Bible Notes</h4>
+                        {% for note in collections.notes reversed limit:6 %}
+                            <a href="{{note.url}}">{{ note.data.title }}</a>
+                        {% endfor %}
+                        <a href="/notes/">See all...</a>
                     </p>
                 </div>
             </div>
@@ -103,5 +108,6 @@
 
     <script type="text/javascript" src= {{'"/js/script.js"'}} ></script>
     <script defer src="https://chirpy.dev/bootstrap/comment.js" data-chirpy-domain="winstonmarvel.com"></script>
+    <script data-goatcounter="https://winstonjude.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

@@ -18,14 +18,8 @@ module.exports = (eleventyConfig) => {
 
     // Create a collection of categories
     eleventyConfig.addCollection("categories", (collectionApi) => {
-        const categories = new Set();
         const posts = collectionApi.getFilteredByTag('post');
-        for(const post of posts) {
-            for(const c of post.data.categories) {
-                categories.add(c)
-            }
-        }
-        return [...categories];
+        return generateCategoryToPostMapping(posts)
     });
 
     // Compile SCSS
@@ -63,3 +57,31 @@ function extractExcerpt(article) {
     return excerpt;
   }
   
+  // Generates a tree of categories -> posts
+  function generateCategoryToPostMapping(posts) {
+    const categoryMapping = new Map();
+    for(const post of posts) {
+      const {categories, title} = post.data
+      const {url} = post
+      for(const category of categories) {
+        if(!categoryMapping.has(category)) {
+          categoryMapping.set(category, {
+            posts: []
+          })
+        }
+        const cat = categoryMapping.get(category)
+        cat.posts.push({url, title})
+      }
+    }
+
+    // Convert to easy-to-use structure
+    const simplifiedOutput = []
+    for(const [key, value] of categoryMapping.entries()) {
+      simplifiedOutput.push({
+        title: key,
+        posts: value.posts
+      })
+    }
+
+    return simplifiedOutput
+  }
