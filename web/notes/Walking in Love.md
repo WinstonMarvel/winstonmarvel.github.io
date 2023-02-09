@@ -2,11 +2,9 @@
 title: Walking in Love
 date: 2022-06-14
 categories: ["Love", "Grace"]
-tags: post
+tags: notes
 featured_image: "walking-together.jpg"
 ---
-
-## Walking in Love
 
 Agape - Unconditional love of the Father in us
 Chesed - God's special kind of love - often translated steadfast love or lovingkindness

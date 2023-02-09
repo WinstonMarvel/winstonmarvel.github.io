@@ -1,9 +1,9 @@
 // Fonts
 $font-pacifico: 'Pacifico', cursive
-$font-roboto:  'Roboto', sans-serif
+$font-noto:  'Noto Sans', sans-serif
 $font-merri:  'Merriweather', serif
 
-$font-primary: $font-roboto
+$font-primary: $font-noto
 $font-secondary: $font-merri
 
 // Colors
@@ -12,11 +12,20 @@ $color-black: rgba(41, 41, 41, 1)
 $color-white: #fff
 $color-grey: darken(hsl(0deg, 0%, 96%), 10%)
 
+// Breakpoint mixins
+$tablet: 1023px
+@mixin mobile
+    @media screen and (max-width: #{$tablet})
+        @content
+
 h1, h2, h3, h4, h5, h6
     font-family: $font-secondary
 
 html
     scroll-behavior: smooth
+
+body
+    font-family: $font-primary
 
 a 
     &:target, &:link, &:active, &:visited

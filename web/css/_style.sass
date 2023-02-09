@@ -1,12 +1,20 @@
-@import "_base"
 @import "../../node_modules/bulma/bulma"
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Merriweather:wght@400;700&family=Noto+Sans:wght@400;700&display=swap')
+@import "_base"
 
 html
     background: #fff
 
 .font-special
     font-family: 'Pacifico'
+
+@mixin fz-18px
+    font-size: 18px
+    @include mobile
+        font-size: 16px
+
+svg.fa-lg
+    max-width: 30px
 
 header
     .navbar
@@ -24,6 +32,14 @@ header
             color: white
             font-size: 28px
             font-family: $font-pacifico
+    @include mobile
+        .navbar-brand
+            margin-bottom: -60px
+        .navbar-menu
+            margin-top: 60px
+            background: $color-black
+        a.navbar-burger
+            color: $color-white
 
 .banner
     background: black bottom/cover no-repeat
@@ -36,54 +52,78 @@ header
         display: block
         color: red
         margin: 0 auto
+    @include mobile
+        padding-left: 1em
+        padding-right: 1em
+
 .template-post.banner 
     h2 span
         letter-spacing: 3px
     svg
         display: inline
 
-@media screen and ( max-width: 1023px)
-    header .navbar-brand
-        margin-bottom: -60px
-    header .navbar-menu
-        margin-top: 60px
-        background: $color-black
-    header a.navbar-burger
-        color: $color-white
-
 .section-youtube-video
     .center
+        width: 560px
         display: table
         margin: 0 auto
+    @include mobile
+        padding: 0
+        .center
+            width: 100%
+            iframe
+                height: 70vh
 
 figure.winston-home-banner  img
     max-width: 400px
 
-.section-anxiety
+.section-anxiety, .section-pornography
+    .subtitle
+        @include fz-18px
     .column-1
         padding-top: 4.5em
     img
         max-width: 300px
         margin: 0 auto
+    @include mobile
+        padding-top: 0
+        img
+            max-width: 185px
 
 #Contact
+    padding-top: 3em
     h2 > svg
         color: $color-blue
-
-@media screen and ( max-width: 1023px)
-    .section-anxiety
+    @include mobile
         padding-top: 0
+        h2
+            font-size: 1.75rem
+        > section
+            padding-top: 0
 
-#About p
-    margin-bottom: 1em
-    letter-spacing: 0px
-    font-size: 17px
-    .fa-mug-hot
-        color: #b47f72
-    .fa-face-smile-wink
-        color: #f3d42e
-    .fa-fire
-        color: #f29925
+#About
+    padding-top: 7em
+    padding-bottom: 9em
+    p
+        margin-bottom: 1em
+        letter-spacing: 0px
+        @include fz-18px
+        .fa-mug-hot
+            color: #b47f72
+        .fa-face-smile-wink
+            color: #f3d42e
+        .fa-fire
+            color: #f29925
+    @include mobile
+        padding-top: 3.5em
+        padding-bottom: 3.5em
+        img
+            max-width: 250px
+            display: table
+            margin: 0 auto
+        .subtitle
+            padding-right: 0 !important
+            margin-right: 0 !important
 
 .blog-grid a.box
     width: 32%
@@ -99,12 +139,33 @@ figure.winston-home-banner  img
     .featured-image
         background-position: center
         background-size: cover
+    @include mobile
+        width: 100%
+        margin-bottom: 1em
+
+.downloads-grid
+    a.download
+        &:target, &:link, &:active, &:visited
+            span, span h3
+                color: $color-blue
+        &:hover, &:focus, .is-hover
+            span, span h3
+                color: darken($color-blue, 30%)
+        img
+            max-width: 70px
+        span
+            margin-left: 1em
+        h3
+            margin: 0   
+        p
+            font-size: 10px
+
 
 .featured-image
     max-width: 500px
 
 .comments
-    background: #121212
+    background: #151718
 
 .column.sidebar
     margin-top: 5em
@@ -120,11 +181,9 @@ figure.winston-home-banner  img
         left: -10px
         top: 0
         border-left: 1px solid $color-grey
-
-@media screen and ( max-width: 1023px)
-    .column.sidebar
+    @include mobile
         margin-top: 0
-        padding: 0 1.5rem
+        padding: 0 2.2rem
         &:before
             display: none
 
@@ -144,7 +203,6 @@ ul.category-listing
     column-gap: 20px
     page-break-inside: avoid
     break-inside: avoid-column
-    display:table      
     margin-left: 0
     > li
         break-inside: avoid-column
@@ -155,7 +213,7 @@ ul.category-listing
 .post-content
     max-width: 700px
     margin: 0 auto
-    line-height: 1.7
+    line-height: 1.8
     letter-spacing: 0.2px
 
     h2, h3
@@ -168,6 +226,72 @@ ul.category-listing
 
     p:not(:last-child)
         margin-bottom: 2em
+
+/* Styling Notes */
+.note
+    position: relative
+    padding-top: 4em
+    padding-bottom: 4em
+    background-color: white
+    box-shadow: 0px 0px 5px 0px #888
+
+
+/* styling red vertical line */
+.note::before
+    content: ''
+    width: 2px
+    height: 100%
+    position: absolute
+    top: 0
+    left: 40px
+    background-color: rgba(255,0,0,0.6)
+    @include mobile
+        left: 10px
+
+/* Styling blue horizontal lines */
+.paper-pattern 
+    height: 100%
+    background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px)
+
+/* styling text content */
+.note-content
+    padding-left: 56px
+    padding-right: 1em
+    line-height: 25px
+    font-family: cursive, $font-merri
+    font-size: 16px
+    letter-spacing: 1px
+    word-spacing: 5px
+    padding-top: 2px
+    @include mobile
+        padding-left: 25px
+        padding-right: 5px
+        letter-spacing: -1px
+        word-spacing: 7px
+    .image
+        height: 245px
+        width: auto
+        margin: 0 auto 45px
+    p
+        margin: 0 0 25px !important
+    h1,h2,h3,h4,h5
+        font-size: 16px !important
+        margin-top: 25px !important
+        margin-bottom: 25px !important
+        line-height: 25px
+    h1.title
+        margin-top: -24px !important
+        font-size: 32px  !important
+        margin-bottom: 0px  !important
+        @include mobile
+            font-size: 16px !important
+    ul
+        padding-top: 0
+        padding-bottom: 0
+        margin-top: 25px !important
+        margin-bottom: 25px !important
+        li
+            margin-top: 0
 
 footer
     .footer-nav a
@@ -192,6 +316,9 @@ footer
         color: #fff
         font-size: 20px
         text-align: center
+    @include mobile
+        top: unset
+        bottom: 10%
 
 .social-share-btns-container
     font-size: 14px
@@ -229,3 +356,10 @@ footer
     &:hover, &:active, &:visited
         background-color: #005983
 //End social share buttons
+
+
+//Bugfixes
+.columns
+    @include mobile
+        margin-left: 0 // Removes negative margins on mobile
+        margin-right: 0

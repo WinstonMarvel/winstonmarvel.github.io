@@ -8,40 +8,49 @@ featured_image: "jesus-troubled.jpg"
 
 ## Lessons from the resurrection of Lazurus
 
-John 11 is an interesting passage that we can learn a few lessons from.
+John 11 is quite an interesting passage that we can learn a few lessons from. As I studied these passages, a few things stood out to me. Here are three lessons from this passage that are interesting:
 
-Things to note:
+##### 1. Jesus did not have to raise Lazarus from the dead
 
-- Lazarus was a disciple because the way sisters introduced him was that Jesus loved him (John 11:1)
+For context, Lazarus was a disciple because of the way the sisters introduced him to Jesus. Notice the words used to introduce him: "the one whom Jesus loved" (John 11:1). As we read further, Martha mentions that Lazarus will rise at the resurrection at the last day (v24). As you read the passage, we get a sense of Lazarus bieng spoken of as a keen follower of Jesus who would "rise at the last day". I also noticed that while Lazarus was still the subject of discussion, Jesus referenced the resurrection of the dead for those who believed in him (v25). These are quite strong arguments that Lazarus was a disciple of Jesus.
 
-- Lazarus was probably a disciple because of the way he was introduced to Jesus by his sisters. "The one whom you love" v1 and also Martha saying that he will rise in the last day v24. Jesus also while Lazarus was the subject of discussion referenced the resurrection of the dead for those who believed in him v25
-  
-  - Why is it relevant the Lazarus was a disciple? Because Jesus didn't have to raise Lazarus. Think about v25. Lazarus was in a better place. He could have encouraged them that Lazarus would live forever in heaven and he is happy, yada yada. For the sake of them whom he loves so much, he raised Lazarus from the dead.
+**So why is it relevant that Lazarus was a disciple?** The truth is that if Lazarus was a believer, Jesus didn't have to raise Lazarus from the dead. Lazarus would rise from the dead anyway. Think about it carefully. Lazarus was supposedly in a better place. Jesus could have simply encouraged them that Lazarus would live for eternity in heaven and that he was in a much  happier place. For the sake of them whom he loved so deeply, Jesus raised Lazarus from the dead. That says a lot about the heart of the Father! He would rather raise Lazarus from the dead for the sake of the hurt family.
 
-- Jesus deliberately stayed back for 2 days. But why? The reason is unclear but we know that he also was glad that he wasn't there. Jesus was indicating that if he was there, Lazarus would not have died.
-  
-  > And for your sake, I’m glad I wasn’t there, because now you have another opportunity to see who I am so that you will learn to trust in me. Come, let’s go and see him.” - John 11:15 TPT
+##### 
 
-- Jesus probably didn't move yet because of a timing issue. He always did what he saw the Father do. 
+##### 2. Their pain deeply moved Jesus' heart
 
-- We could also argue that Jesus did not "deliberately" delay because his heart was so moved when he saw the sisters that he wept. The scripture does not tell us why he waited 2 days before he saw the Father's heart to move. But we do know that Jesus did only what he saw the Father do. Perhaps he never questioned the Father why 2 days but he trusted in the infinite wisdom of God. Going immediately could have caused other problems with Jews too.
-  
-  v9,v10 are confusing but could indicate that he did not stay back because of fear. Walking at night may seem safer but has fear as a motivation while walking in the day is walking in the power and presence of the light. God was with him and v9 and v10 could indicate that this was the right time for Jesus to move.
-  
-  > Jesus replied, “There are twelve hours of daylight every day. During the day people can walk safely. They can see because they have the light of this world. 10 But at night there is danger of stumbling because they have no light.” - John 11:9,10 NLT
-  
-  It's interesting how God accomplished the purposes of avoiding trouble with Jews while also still resurrecting Lazarus from the dead.
+John 11:33 outrightly tells us that a deep anger welled up in Jesus and he was deeply troubled. It paints a picture that the pain that he saw on the face of Martha, Mary and the people angered his spirit and deeply troubled him. Let's pause for a moment. Let it sink in. *Your pain and your problems deeply anger the heart of God and move him so much.* God is angry at the attacks of the enemy over us. 
 
-- John 11:33 says a deep anger welled up in him and he was deeply troubled. The pain that he saw on the face of Martha, Mary and the people angered his spirit and deeply troubled him. Think of that for a moment. Let it sink in. Your pain and your problems deeply anger the heart of God and move him so much. God is angry at the attacks of the enemy over us. The amplified Bible uses this phrase ot explain the emotion that Jesus felt: "deeply moved in spirit [to the point of anger at the sorrow caused by death]"
+The amplified Bible uses this phrase to explain the emotions that Jesus felt: "deeply moved in spirit [to the point of anger at the sorrow caused by death]"
 
-### Jesus did not have to raise Lazarus from the dead
+> 33 When Jesus saw her sobbing, and the Jews who had come with her also sobbing, He was deeply moved in spirit [to the point of anger at the sorrow caused by death] and was troubled, - **John 11:33 AMP**
 
-### Their pain deeply moved his heart
+God is our good father. The Bible tells us that just as a father has compassion on his children so the Lord has compassion on us. As high as the heavens are above the earth so great is his love towards us. (Ps 103: 11-13, 17)
 
-### An infinite God who works miracles even in this finite world
+The heart of the father is so full of love that our pain affects his heart.
 
-### God loves you beyond measure
+> The LORD appeared to me (Israel) from ages past, *saying,* “I have loved you with an everlasting love; Therefore with lovingkindness, I have drawn you *and* continued My faithfulness to you - **Jeremiah 31:3 AMP**
 
-God is your father. The Bible tells us that just as a father has compassion on his children so the Lord has compassion on us. As high as the heavens are above the earth so great is his love towards us. (Ps 103: 11-13, 17)
+##### 
 
-> The LORD appeared to me (Israel) from ages past, *saying,* “I have loved you with an everlasting love; Therefore with lovingkindness, I have drawn you *and* continued My faithfulness to you - **Jeremiah 31:3 AMP
+##### 3. An infinite God who works miracles even in this finite world
+
+When Jesus heard that Lazarus was sick, he deliberately stayed back for 2 days. This is confusing. Why does Jesus stay back? Scripture does not give us a clear reason but we do know that he was glad that he wasn't there.
+
+> And for your sake, I’m glad I wasn’t there, because now you have another opportunity to see who I am so that you will learn to trust in me. Come, let’s go and see him.” - **John 11:15 TPT**
+
+Jesus was indicating that if he was there earlier, Lazarus would **NOT** have died. 
+
+As to why he didn't go earlier, Jesus probably didn't move yet because of a timing issue. He always did what he saw the Father do.
+
+We could also argue that Jesus did not "deliberately" delay because his heart was so moved when he saw the sisters, that he himself wept. The scripture does not tell us why he waited 2 days before he saw the Father's heart to move, but we do know that Jesus did only what he saw the Father do. Perhaps he never questioned the Father about the delay but he trusted in the infinite wisdom of God. This was his obedience to God's timing, something beautiful that we can learn from His life.
+
+It is quite possible that if Jesus went immediately, it could have caused other problems with Jews too. We cannot say for sure. God accomplished the purposes of avoiding trouble with Jews while also still resurrecting Lazarus from the dead.
+
+### Action items
+
+- *Remind yourself, "God knows". He knows your heart, he knows the troubles you face and he knows the mountains you cannot climb. He sits right beside you as you weep. Trust God today that he will come through. He may be 4 days late, but he will restore to you everything that the devil has stolen.*
+
+> I will restore to you the years  
+>     that the swarming locust has eaten, - **Joel 2:25a ESV**

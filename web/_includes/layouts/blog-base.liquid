@@ -1,0 +1,98 @@
+---
+layout: layouts/core/base.liquid
+---
+
+
+<section class="banner is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-center template-post">
+    <h2 class="title is-3 has-text-centered has-text-white has-text-weight-normal"><span class="subtitle is-block pb-1 mb-0">I have loved you with an</span> Everlasting love 
+            <span class="fas fa-heart"></span>
+    </h2>
+</section>
+
+{% include 'social-share' %}
+
+<div class="container">
+    <div class="columns">
+        <div class="column is-four-fifths main">
+            <article class="post px-5 pt-5 mt-5 pb-5">
+                <div class="content post-content mb-5">
+                    {{ content }} 
+                </div>
+            </article>
+        </div>
+        <div class="column sidebar">
+            <div class="search-bar mt-5 mb-5">
+                <h3 class="title is-5 is-spaced mt-2 mb-5">Search</h3>
+                <form action="https://duckduckgo.com/" method="get">
+                    <div class="field has-addons">
+                        <div class="control">
+                            <input class="input" name="q" id="sidebar-search" type="text" placeholder="Search this site" required>
+                            <input aria-hidden="true" hidden="" name="sites" value="winstonmarvel.com">
+                        </div>
+                        <div class="control">
+                            <button class="button is-blue">
+                            Go!
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="recent-posts">
+                <h3 class="title is-5 is-spaced mb-5">Recent Posts</h3>
+                <ul>
+                    {% for post in collections.post reversed %}
+        
+                        {% if forloop.index == 30 %}
+                            {% break %}
+                        {% endif %}
+                        <li>
+                            <a href="{{post.url}}" class="">
+                                <span>{{ post.date | date: "%B %d" }}</span> - {{ post.data.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="prayer-requests">
+                <h3 class="title is-5 is-spaced mb-5">Send a prayer request</h3>
+                <form action="https://usebasin.com/f/6a6af5c970b8" method="POST"  enctype="multipart/form-data" id="form" target="_blank">
+                    <div class="field">
+                        <div class="control">
+                            <input class="input" type="text" name="name" placeholder="Enter your name" required>
+                        </div>
+                        </div>
+
+                        <div class="field">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input" name="email" type="email" placeholder="Email">
+                                <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                        </div>
+
+
+                        <div class="field">
+                        <div class="control">
+                            <textarea class="textarea" name="message" placeholder="What would you like to pray for?" required></textarea>
+                        </div>
+                        </div>
+
+                        <div class="field is-grouped">
+                        <div class="control">
+                            <button class="button is-blue" type="submit">Pray!</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="comments">
+    <div data-chirpy-comment="true" class="container px-3"></div>
+</section>

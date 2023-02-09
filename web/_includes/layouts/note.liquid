@@ -1,0 +1,25 @@
+---
+layout: layouts/blog-base.liquid
+permalink: "/notes/{{ title | slugify }}/"
+---
+
+<article class="message is-warning">
+    <div class="message-body">
+        <h3 class="is-size-6">Hey there! These notes are a work in progress.</h3>
+        <p>They are intended to be just notes. Eventually I will turn them into posts.</p>
+    </div>
+</article>
+
+<div class="note">
+  <div class="paper-pattern">
+    <div class="note-content">
+      <h1 class="title is-3 is-spaced mb-2 has-text-centered">{{title}}</h1>
+      <div class="post-meta is-spaced mb-3 has-text-centered">
+          <span class="by-line">By Winston Jude </span>
+          <span class="on ">on {{ date | date: "%B %d, %Y" }} </span>
+      </div>
+      <img src="/img/blog/{{featured_image}}" alt="{{title}}" class="image">
+      {{content}}
+    </div>
+  </div>
+</div>

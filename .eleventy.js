@@ -5,9 +5,10 @@ const striptags = require("striptags");
 
 module.exports = (eleventyConfig) => {
     
-    // Copy the `img` and `js` folders to the output
+    // Copy the `img`, `js`, `pdf` downloads folders to the output
     eleventyConfig.addPassthroughCopy("web/img");
     eleventyConfig.addPassthroughCopy("web/js");
+    eleventyConfig.addPassthroughCopy("web/downloads/pdf");
 
     eleventyConfig.addPlugin(pluginNavigation);
 

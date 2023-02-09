@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Home | Winston Jude</title>
+  <title>{{title}} | Winston Jude</title>
   <meta name="description" content="Bible, web design and much more">
   <meta name="author" content="Winston Jude">
 
-  {% comment %} <meta property="og:title" content="A Basic HTML5 Template">
+  {% comment %} <meta property="og:title" content="{{title}} | Winston Jude">
   <meta property="og:type" content="website">
   <meta property="og:url" content="this url">
   <meta property="og:description" content="A simple HTML5 Template for new projects.">
@@ -35,10 +35,10 @@
 
                     <div class="navbar-menu" id="mainMenu">
                         <ul class="navbar-end">
+                            <li class="navbar-item"><a href="/">Home</a></li>
                             <li class="navbar-item"><a href="/posts">Posts</a></li>
                             <li class="navbar-item"><a href="/notes">Bible Notes</a></li>
-                            <li class="navbar-item"><a href="/Christianity">Christianity</a></li>
-                            <li class="navbar-item"><a href="/my-story">My Story</a></li>
+                            <li class="navbar-item"><a href="/downloads">Downloads</a></li>
                             <li class="navbar-item"><a href="/#About">About</a></li>
                             <li class="navbar-item"><a href="/#Contact">Contact</a></li>
                         </ul>
@@ -59,33 +59,25 @@
         <div class="container is-max-desktop py-5 px-4 mb-5"> 
             <div class="footer-nav columns is-justify-content-space-between">
                 <div class="column is-3">
-                    <p>
-                       <h4 class="subtitle is-4">Links</h4>
-                       <a href="/#About">About</a>
-                       <a href="/#Christianity">Christianity</a>
-                       <a href="/#My-Story">My Story</a>
-                       <a href="/#Contact">Hire me!</a>   
-                       <a href="/#Contact">Contact</a>
-                    </p>
+                    <h4 class="subtitle is-4">Links</h4>
+                    <a href="/#About">About</a>
+                    <a href="/downloads">Downloads</a>
+                    <a href="/#Contact">Hire me!</a>   
+                    <a href="/#Contact">Contact</a>
                 </div>
                 <div class="column is-3">
-                    <p>
-                        <h4 class="subtitle is-4">Categories</h4>
-                        {% for category in collections.categories reversed limit:6 %}
-                            <a href="/categories#{{category.title | slugify }}">{{ category.title }}</a>
-                        {% endfor %}
-                        <a href="/categories/">See all...</a>
-
-                    </p>
+                    <h4 class="subtitle is-4">Categories</h4>
+                    {% for category in collections.categories reversed limit:6 %}
+                        <a href="/categories#{{category.title | slugify }}">{{ category.title }}</a>
+                    {% endfor %}
+                    <a href="/categories/">See all...</a>
                 </div>
                 <div class="column is-3">
-                    <p>
-                        <h4 class="subtitle is-4">Bible Notes</h4>
-                        {% for note in collections.notes reversed limit:6 %}
-                            <a href="{{note.url}}">{{ note.data.title }}</a>
-                        {% endfor %}
-                        <a href="/notes/">See all...</a>
-                    </p>
+                    <h4 class="subtitle is-4">Bible Notes</h4>
+                    {% for note in collections.notes reversed limit:6 %}
+                        <a href="{{note.url}}">{{ note.data.title }}</a>
+                    {% endfor %}
+                    <a href="/notes/">See all...</a>
                 </div>
             </div>
         </div>
@@ -97,12 +89,10 @@
                 <a href="https://github.com/winstonmarvel" target="_blank"><i class="fab fa-github fa-xl px-1"></i></a>
             </p>
             
-            <p class="is-size-7">
-            The source code is licensed
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-            </p>
-            <p class="is-size-7 pt-0 mt-0">Winston Jude 2022</p>
+            <p class="is-size-7">The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY NC SA 4.0</a>.</p>
+            <p class="is-size-7 pt-0 mt-0">Winston Jude 2023</p>
         </div>
     </footer>
 

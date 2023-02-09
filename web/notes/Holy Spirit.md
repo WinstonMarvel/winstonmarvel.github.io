@@ -6,8 +6,6 @@ tags: notes
 featured_image: "placeholder.jpg"
 ---
 
-# Holy Spirit word study Acts/Gospels
-
 ### Who is he?
 
 - He is the spirit of the Father Matt 10:20  - compare with parallel in Luke where it says Holy Spirit and not Spirit of the Father
@@ -105,7 +103,7 @@ What our spirit can do
 
 Holy spirit infilling and coming upon people is different 
 
-Baptism
+##### Baptism
 
 Act_19:2  And he said to them, “Did you receive the Holy Spirit when you believed?” And they said, “No, we have not even heard that there is a Holy Spirit.”
 Act_19:6  And when Paul had laid his hands on them, the Holy Spirit came on them, and they began speaking in tongues and prophesying.
@@ -146,7 +144,7 @@ Act_20:23  except that the Holy Spirit testifies to me in every city that impri
   
   - In worship, when his presence is strong. What is hesaying
 
-- Col 2:33 - Wisdom stops the flesh? what stops it
+- Col 2:23 - Wisdom stops the flesh? what stops it
   
   - Thinking things above (Col 3: 1-5)
     
