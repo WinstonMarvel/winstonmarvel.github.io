@@ -3,7 +3,7 @@ title: Fear
 date: 2023-01-19
 categories: ["Fear"]
 tags: notes
-featured_image: "discouragement.jpg"
+featured_image: "fear-little-boy.jpg"
 ---
 
 - Psalm 121
