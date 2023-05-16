@@ -40,7 +40,6 @@ God loves you so much! There is a deep affection and love from the core of his h
 
 - He never fails. Prophecies may have failed, or tongues might not have worked, and your knowledge and all the good stuff may never have worked. But trust God because He will never fail and **He never can fail**.
 
-
 He believes in us :')
 
 ### You were not responsible for your successes. God is.
@@ -67,7 +66,8 @@ You gave your life to Jesus. Satan is roaming around waiting for you to slip, bu
 
 ### Let it go child. Let God correct you tonight.
 
-#### Action Items: 
+#### Action Items:
+
 - *Read Job 41:1 - 42:6*
 
 >  When you pass through the waters, I will be with you; and through the rivers, they shall not overwhelm you; when you walk through fire you shall not be burned, and the flame shall not consume you. - **Isaiah 43:2 ESV**

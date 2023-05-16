@@ -6,9 +6,11 @@ tags: post
 featured_image: "tears.jpg"
 ---
 
-## The utimely birth of Jesus?
+The Bible paints a beautiful and wonderful picture of Mary calling her a highly favoured one. She is chosen by God, righteous, holy and set apart to give birth to the Son of God as a virgin. That's all fine and great. But one of the most striking understated truths in the gospels is that Mary was probably not perceived to be the way we saw her by the people of her day. 
 
-The Bible paints a beautiful and wonderful picture of Mary calling her a highly favoured one. She is chosen by God, righteous, holy and set apart to give birth to the Son of God as a virgin. That's all fine and great. But one of the most striking understated truths in the gospels is that Mary was probably not perceived to be the way we saw her by the people of her day. Jesus was born in a very unusual way to a virgin still betrothed to be married. Would you not consider this a timely birth of Jesus? Untimely seems to be more fitting to the manner in which the Son of God was born.
+## The utimely birth of Jesus
+
+Jesus was born in a very unusual way to a virgin still betrothed to be married. Would you not consider this a timely birth of Jesus? Untimely seems to be more fitting to the manner in which the Son of God was born.
 
 > 18 This is how the birth of Jesus the Messiah came about: His mother Mary was pledged to be married to Joseph, but before they came together, she was found to be pregnant through the Holy Spirit. - **Matthew 1:18 NIV**
 

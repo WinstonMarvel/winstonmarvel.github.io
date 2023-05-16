@@ -6,9 +6,9 @@ tags: post
 featured_image: "float.jpg"
 ---
 
-## The Holy Spirit is like a float
-
 Do you remember when you first learned to swim? If you are like me, then you were probably given a float that you fixed to your body. As long as this magical float was around your waist, you could never stay under the waterline forever. Of course, someone could have thrust your body into the water but you eventually would rise. By the laws of physics, you could force a float down completely but it will be submerged so long as there is pressure. You could say they are destined to rise above the water.
+
+## The Holy Spirit is like a float
 
 I have a word for you today: The Holy Spirit is this magical float around your waistline. Our lives are not our own. Scripture tells us that our bodies are the temple of the Holy Spirit. You and I may be submerged under the water today by the circumstances of life, but we will rise above no matter what. This is our new nature. We cannot die. We are eternal 'zoe' beings.
 
