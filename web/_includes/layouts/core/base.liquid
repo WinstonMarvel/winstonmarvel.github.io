@@ -9,20 +9,25 @@
   <meta name="description" content="Bible, web design and stuff.">
   <meta name="author" content="Winston Jude">
 
-  {% comment %} <meta property="og:title" content="{{title}} | Winston Jude">
+  <meta property="og:title" content="{{title}} | Winston Jude">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="this url">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png"> {% endcomment %}
-{% comment %} 
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> {% endcomment %}
+  <meta property="og:url" content="{{baseURL}}{{ page.url }}">
+  <meta property="og:description" content="Winston's Bible reflections">
+  <meta property="og:image" content="{% if featured_image %}{{baseURL}}/img/blog/{{ featured_image }}{% else %}{{baseURL}}/img/blog/placeholder-cross.jpg{% endif %}">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="manifest" href="/img/site.webmanifest">
+  <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/img/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href= {{'"/css/style.css"'}} />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/svg-with-js.min.css" integrity="sha512-YhTJO2S6UzEZDGOYCBmb5KMqKnvix8bVnI2NKJmLXdp8UTPOnU2aBXQI2w3p6K0zjvYdpqZXNXVEwxo37PGAOQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</head>
+  
+</head> 
 <body>
     <header>
             <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation"> 
@@ -95,6 +100,9 @@
             <p class="is-size-7 pt-0 mt-0">Winston Jude 2024</p>
         </div>
     </footer>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/svg-with-js.min.css" integrity="sha512-YhTJO2S6UzEZDGOYCBmb5KMqKnvix8bVnI2NKJmLXdp8UTPOnU2aBXQI2w3p6K0zjvYdpqZXNXVEwxo37PGAOQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script type="text/javascript" src= {{'"/js/script.js"'}} ></script>
     <script defer src="https://chirpy.dev/bootstrap/comment.js" data-chirpy-domain="winstonmarvel.com"></script>

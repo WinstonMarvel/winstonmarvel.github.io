@@ -4,6 +4,9 @@ const eleventySass = require('eleventy-sass')
 const striptags = require("striptags");
 
 module.exports = (eleventyConfig) => {
+
+    // Global data variables
+    eleventyConfig.addGlobalData("baseURL", "https://winstonmarvel.com");
     
     // Copy the `img`, `js`, `pdf` downloads folders to the output
     eleventyConfig.addPassthroughCopy("web/img");
