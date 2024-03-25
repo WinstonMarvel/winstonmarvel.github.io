@@ -6,19 +6,20 @@ tags: post
 featured_image: "stone-throwing.jpg"
 ---
 
-## Why am I anxious?
+## Understanding Anxiety
 
-Worry and anxiety stem from a control issue. When we try to control situations, we worry, we are anxious and we struggle to dictate outcomes that are beyond our human ability. A worrying heart often indicates a controlling spirit, a legalistic 'work' mentality, an unresting heart, and a false belief that your hard work is what caused you to succeed in the first place. All of that can simply be explained as a lack of trust in God's true character - his faithfulness ('emet').
+Anxiety often emerges from a desire for control. When we attempt to manage situations beyond our capacity, we find ourselves overwhelmed with worry and fear. This stems from a need to dictate outcomes, a legalistic mindset, and a false belief that our efforts solely lead to success. Ultimately, it reflects a lack of trust in God's faithful character - "emet".
 
-Anxiety (Greek: merimnao) is closely related to the root word 'merismos' which means divided, distributed, or separated. The usages in scripture include the division of property and the distribution of gifts to the believers. Anxiety and worry can be explained as a 'divided mind'. A mind that has clutter and no clarity or unity of thought. On the other hand, Faith is an unshakable trust in our unshakeable God.
+The Greek word for anxiety, "merimnao," is closely linked to "merismos," meaning divided or separated. In essence, anxiety creates a divided mind, cluttered with uncertainties and lacking clarity. Conversely, faith is an unshakable trust in our unshakeable God.
 
-## God loves you beyond measure
+## Embracing God's Love
 
-God is our father. Don't ever forget that just as a father has compassion on his children so the Lord has compassion on us. As high as the heavens are above the earth so great is his love towards us. (Ps 103: 11-13, 17) 
+God's love for us knows no bounds. The Bible tells us that we are fathered by God. Just as a father shows compassion to his children, so does the Lord extend His love toward us. His affection for us transcends comprehension, as expressed in scriptures such as Psalm 103:11-13, 17 where the Bible compares His love for us to the height of the heavens above the earth. 
 
 > The LORD appeared to me (Israel) from ages past, *saying,* “I have loved you with an everlasting love; Therefore with lovingkindness, I have drawn you *and* continued My faithfulness to you - **Jeremiah 31:3 AMP**
 
-Notice how he cares about you with the deepest affection!
+We can find solace in knowing that He watches over us with deep care and affection, as highlighted in 1 Peter 5:7. Notice how he cares about you with the deepest affection!
+
 
 > casting all your cares [all your anxieties, all your worries, and all your concerns, once and for all] on Him, for He cares about you [with deepest affection, and watches over you very carefully]. - **1 Pet 5:7 AMP**
 
@@ -32,7 +33,7 @@ God loves you so much! There is a deep affection and love from the core of his h
 
 - He is not rude, self-seeking, and not provoked easily
 
-- He does not take into account our wrongdoing when dealing with us 
+- He does not take into account our wrongdoing when dealing with us
 
 - He does not rejoice at the injustice done to us but instead rejoices with the truth (when right and truth prevail)
 
@@ -42,34 +43,35 @@ God loves you so much! There is a deep affection and love from the core of his h
 
 He believes in us :')
 
-### You were not responsible for your successes. God is.
+## Surrendering Control -  God is sovereign over your life.
 
-There are some great things we can learn from the story of Job. Towards the end of the book of Job, God decides to question Job's understanding of him. When I often worry and I am anxious, I read Job 41-43. Almost every time, it slaps me in the face, when I think that I can control situations beyond my natural ability. My response is always to simply give up the fight and put my trust in God.
+There are some great things we can learn from the story of Job. The story of Job serves as a poignant reminder of our limited control. Towards the end of the book of Job, God decides to question Job's understanding of him. 
 
-> Have you an arm like God,  and can you thunder with a voice like His? - **Job 40:9 ESV**
+When I often worry and I am anxious, I read Job 41-43.It slaps me in the face, when I think that I can control situations beyond my natural ability. My response is always to simply give up control and put my trust in God.
 
-Notice how God says that if Job can do all of the above, then God himself will praise Job and acknowledge that his right hand can save him. We need to come to the end of ourselves and put our trust in God.
+> Have you an arm like God, and can you thunder with a voice like His? - **Job 40:9 ESV**
+
+If you read the verses that ensue, God says that if Job can do all of the above, then God himself will praise Job and acknowledge that his right hand can save him. We need to come to the end of ourselves and put our trust in God.
 
 > “[If you can do all this, Job, proving your divine power] then I [God] will also praise you *and* acknowledge that your own right hand can save you. - **Job 40:14 AMP**
 
-### You have no control. But God is sovereign over your life.
+
+## Embracing God's Plans
 
 > casting all your cares [all your anxieties, all your worries, and all your concerns, once and for all] on Him, for He cares about you [with deepest affection, and watches over you very carefully]. - **1 Pet 5:7 AMP**
 
-You gave your life to Jesus. Satan is roaming around waiting for you to slip, but now you are God's property and not your own. The devil needs permission in your life to sift you. God has powerful plans to prosper you. Have faith. Jeremiah 29:11 tells us that there's a hope and future in God's prosperous plans for us.
+As believers, we are assured of God's plans to prosper us. Despite Satan's attempts to derail us, we belong to God, and His plans for us are unshakable. Meditating on verses like Jeremiah 29:11 and Job 42:2 reaffirms our trust in God's divine providence. Jeremiah 29:11 tells us that there's a hope and future in God's prosperous plans for us. Have faith. Remember:
 
 - Not one of God's plans can be thwarted *Job 42:2*
-
 - You can't save yourself *Job 40:14*
-
 - Tell me this: And who of you by worrying can add one hour to [the length of] his life? *Matthew 6:27*
 
-### Let it go child. Let God correct you tonight.
+### Let it go child of God. Let God correct you tonight.
 
-#### Action Items:
+#### Verses to reflect on:
 
-- *Read Job 41:1 - 42:6*
+- **Reflect on Job 41:1 - 42:6** to gain perspective on God's response to suffering.
 
->  When you pass through the waters, I will be with you; and through the rivers, they shall not overwhelm you; when you walk through fire you shall not be burned, and the flame shall not consume you. - **Isaiah 43:2 ESV**
+> When you pass through the waters, I will be with you; and through the rivers, they shall not overwhelm you; when you walk through fire you shall not be burned, and the flame shall not consume you. - **Isaiah 43:2 ESV**
 
-- Verses to meditate on - 1 Pet 5:7, Job 41-43 (God's response to Job's suffering)
+-  1 Pet 5:7, Job 41-43 (God's response to Job's suffering) - internalize God's promises and sovereignty
