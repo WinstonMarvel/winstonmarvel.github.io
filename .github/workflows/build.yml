@@ -1,24 +1,29 @@
-name: Build site
+name: Build & Deploy site to GitHub Pages
 
 on:
   push:
     branches:
-      - deployment
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
         with:
           node-version: 16
+
       - name: Install dependencies & build
         run: |
           npm ci
-          npm run build          
-      - name: Deploy
+          npm run build    
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
