@@ -5,6 +5,7 @@ const htmlmin = require("html-minifier-terser")
 const { execSync } = require("child_process")
 const fs = require("fs")
 const path = require("path")
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img")
 
 module.exports = (eleventyConfig) => {
     // Global data variables
@@ -36,9 +37,24 @@ module.exports = (eleventyConfig) => {
         return content
     })
 
+    // Optimize images
+    eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+        formats: ["avif", "webp", "jpeg"],
+        extensions: "html",
+        widths: [320, 640, 960, 1280, null],
+        // Attributes assigned on <img> nodes override these values
+        htmlOptions: {
+            imgAttributes: {
+                loading: "lazy",
+                decoding: "async",
+            },
+            pictureAttributes: {},
+        },
+    })
+
     // Copy the `pdf` downloads folders to the output
     eleventyConfig.addPassthroughCopy("web/downloads/pdf")
-    eleventyConfig.addPassthroughCopy("web/img")
+    // eleventyConfig.addPassthroughCopy("web/img")
 
     eleventyConfig.addPlugin(pluginNavigation)
 
