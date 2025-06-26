@@ -1,7 +1,7 @@
 ---
 title: Mary's shame and suffering
 date: 2022-12-26
-categories: ["Suffering","Dissapointment", "Pain"]
+categories: ["Suffering", "Dissapointment", "Pain"]
 tags: post
 featured_image: "tears.jpg"
 ---

@@ -1,36 +1,43 @@
 {
-  "name": "winstonmarvel.github.io",
-  "version": "1.0.0",
-  "description": "Winston's website",
-  "main": "index.js",
-  "scripts": {
-    "build": "npx @11ty/eleventy",
-    "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy --watch",
-    "start": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=* npx @11ty/eleventy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WinstonMarvel/winstonmarvel.github.io.git"
-  },
-  "author": "WinstonMarvel",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WinstonMarvel/winstonmarvel.github.io/issues"
-  },
-  "homepage": "https://github.com/WinstonMarvel/winstonmarvel.github.io#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^3.1.1",
-    "@11ty/eleventy-img": "^4.0.2",
-    "@11ty/eleventy-navigation": "^0.3.5",
-    "bulma": "^0.9.4",
-    "clean-css": "^5.3.3",
-    "html-minifier-terser": "^7.2.0",
-    "luxon": "^2.5.2",
-    "node-sass": "^9.0.0",
-    "nunjucks": "^3.2.4",
-    "striptags": "^3.2.0",
-    "terser": "^5.43.1"
-  }
+    "name": "winstonmarvel.github.io",
+    "version": "1.0.0",
+    "description": "Winston's website",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx @11ty/eleventy",
+        "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+        "watch": "npx @11ty/eleventy --watch",
+        "start": "npx @11ty/eleventy --serve",
+        "debug": "DEBUG=* npx @11ty/eleventy",
+        "format": "pnpm exec prettier --write .",
+        "lint": "pnpm exec eslint ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/WinstonMarvel/winstonmarvel.github.io.git"
+    },
+    "author": "WinstonMarvel",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/WinstonMarvel/winstonmarvel.github.io/issues"
+    },
+    "homepage": "https://github.com/WinstonMarvel/winstonmarvel.github.io#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^3.1.1",
+        "@11ty/eleventy-img": "^4.0.2",
+        "@11ty/eleventy-navigation": "^0.3.5",
+        "@eslint/js": "^9.29.0",
+        "bulma": "^0.9.4",
+        "clean-css": "^5.3.3",
+        "eslint": "^9.29.0",
+        "eslint-config-prettier": "^10.1.5",
+        "globals": "^16.2.0",
+        "html-minifier-terser": "^7.2.0",
+        "luxon": "^2.5.2",
+        "node-sass": "^9.0.0",
+        "nunjucks": "^3.2.4",
+        "prettier": "3.6.1",
+        "striptags": "^3.2.0",
+        "terser": "^5.43.1"
+    }
 }

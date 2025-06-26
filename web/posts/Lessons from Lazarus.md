@@ -16,7 +16,7 @@ So why is it relevant that Lazarus was a disciple? **The truth is, if Lazarus wa
 
 ## 2. Their pain deeply moved Jesus' heart
 
-John 11:33 outrightly tells us that a deep anger welled up in Jesus and he was **deeply troubled**. It paints a picture that the pain he saw on the faces of Martha, Mary, and the people angered his spirit and deeply troubled him. Let's pause for a moment. Let it sink in. ***Your pain and your problems deeply anger the heart of God and move him greatly.*** God is angry at the attacks of the enemy against us.
+John 11:33 outrightly tells us that a deep anger welled up in Jesus and he was **deeply troubled**. It paints a picture that the pain he saw on the faces of Martha, Mary, and the people angered his spirit and deeply troubled him. Let's pause for a moment. Let it sink in. **_Your pain and your problems deeply anger the heart of God and move him greatly._** God is angry at the attacks of the enemy against us.
 
 The amplified Bible uses this phrase to explain the emotions that Jesus felt: "deeply moved in spirit [to the point of anger at the sorrow caused by death]"
 
@@ -26,7 +26,7 @@ God is our good Father. The Bible tells us that just as a father has compassion 
 
 The heart of the Father is so full of love that our pain affects his heart.
 
-> The LORD appeared to me (Israel) from ages past, *saying,* “I have loved you with an everlasting love; Therefore with lovingkindness, I have drawn you *and* continued My faithfulness to you - **Jeremiah 31:3 AMP**
+> The LORD appeared to me (Israel) from ages past, _saying,_ “I have loved you with an everlasting love; Therefore with lovingkindness, I have drawn you _and_ continued My faithfulness to you - **Jeremiah 31:3 AMP**
 
 ## 3. An infinite God who works miracles even in this finite world
 
@@ -40,13 +40,13 @@ As to why he didn't go earlier, we don't know. Perhaps he didn't feel like it wa
 
 We could also argue that Jesus did not "deliberately" delay because his heart was so moved when he saw the sisters, that he himself wept. The scripture does not tell us why he waited 2 days before he saw the Father's heart move, but we do know that Jesus did only what he saw the Father do. Perhaps he never questioned the Father about the delay, but he trusted in the infinite wisdom of God. This was his obedience to God's timing, something beautiful that we can learn from His life.
 
-It is quite possible that if Jesus had gone immediately, it could have caused other problems with the Jews too. We cannot say for sure. **God accomplished the purposes of avoiding trouble with the Jews while also still resurrecting Lazarus from the dead.** 
+It is quite possible that if Jesus had gone immediately, it could have caused other problems with the Jews too. We cannot say for sure. **God accomplished the purposes of avoiding trouble with the Jews while also still resurrecting Lazarus from the dead.**
 
-Does this not say something about your problems? ***The circumstances may be very limiting, but God can do the impossible even amidst the finite limitations of your situation.***
+Does this not say something about your problems? **_The circumstances may be very limiting, but God can do the impossible even amidst the finite limitations of your situation._**
 
 ## Action items
 
-- *Remind yourself, "God knows." He knows your heart, he knows the troubles you face, and he knows the mountains you cannot climb. He sits right beside you as you weep. Trust God today that he will come through. He may be 4 days late, but he will restore to you everything that the devil has stolen.*
+- _Remind yourself, "God knows." He knows your heart, he knows the troubles you face, and he knows the mountains you cannot climb. He sits right beside you as you weep. Trust God today that he will come through. He may be 4 days late, but he will restore to you everything that the devil has stolen._
 
 > I will restore to you the years  
 >     that the swarming locust has eaten, - **Joel 2:25a ESV**
