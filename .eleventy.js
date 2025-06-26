@@ -50,6 +50,12 @@ module.exports = (eleventyConfig) => {
             },
             pictureAttributes: {},
         },
+        filenameFormat: function (id, src, width, format) {
+            const extension = path.extname(src)
+            const name = path.basename(src, extension)
+            // Return the filename in the format: name-widthw.format
+            return `${name}-${width}w.${format}`
+        },
     })
 
     // Copy the `pdf` downloads folders to the output
