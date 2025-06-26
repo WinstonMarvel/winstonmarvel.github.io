@@ -1,43 +1,43 @@
 name: Build & Deploy site to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
+    push:
+        branches:
+            - main
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
 
-    env:
-      ELEVENTY_ENV: production
+        env:
+            ELEVENTY_ENV: production
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
 
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+            - name: Setup Node.js environment
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
 
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9.3.0
+            - name: Setup PNPM
+              uses: pnpm/action-setup@v4
+              with:
+                  version: 9.3.0
 
-      - name: Install dependencies & build
-        run: |
-          pnpm install --frozen-lockfile
-          pnpm run build
+            - name: Install dependencies & build
+              run: |
+                  pnpm install --frozen-lockfile
+                  pnpm run build
 
-      - name: Lint
-        run: |
-          pnpm run lint
+            - name: Lint
+              run: |
+                  pnpm run lint
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          cname: winstonmarvel.com
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./_site
+                  cname: winstonmarvel.com
