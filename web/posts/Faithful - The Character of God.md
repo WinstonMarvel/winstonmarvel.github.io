@@ -25,13 +25,9 @@ In Exodus 17, during Israel's battle with the Amalekites, Moses' steady hands ar
 ### He'emin - Our Response to His Faithfulness
 
 - The Hebrew word for trust, derived from Emet, is translated into English as 'to believe' or 'to have faith.' Its fundamental meaning, however, is to consider someone trustworthy. Abraham he'emin'd God, regarding Him as trustworthy.
-  
 - Exodus 14:31 depicts Israel he'emin'ing God to leave Egypt.
-  
 - In 1 Kings 3:6, David walked in Emet before God.
-  
 - God's promise of a King in 2 Samuel 7:16 is fulfilled in Jesus, the Son of David and Abraham, demonstrating the lineage of those who he'emin' God.
-  
 - Romans 15:8-9 underscores Christ's advent on behalf of God's faithfulness.
 
 ### Faithfulness
@@ -45,20 +41,20 @@ Faithfulness emanates from God's unshakable trustworthiness. He is truth and can
 - Deuteronomy 7:9 assures us of God's faithfulness to His covenant and steadfast love.
 
 > Know therefore that the LORD your God is God; he is the faithful God, keeping his covenant of love to a thousand generations of those who love him and keep his commandments. - **Deuteronomy 7:9 NIV**
-  
+
 - Exodus 20:6 emphasizes His steadfast love for thousands who obey Him.
 
 > but showing steadfast love to thousands of those who love me and keep my commandments. - **Exodus 20:6 ESV**
-  
+
 - Numbers 23:19 reaffirms God's immutability; He fulfills His promises without fail.
 
 > God is not man, that he should lie, or a son of man, that he should change his mind. Has he said, and will he not do it? Or has he spoken, and will he not fulfill it? - **Numbers 23:19 ESV**
-  
+
 - Psalm 31:3 and 31:5 proclaim His faithfulness and guidance. Notic verse 5 where His name is declared El Emet (God of faithfulness/truth).
 
 > For you are my rock and my fortress; and for your name's sake you lead me and guide me; - **Psalms 31:3 ESV**
 
-> Into your hand I commit my spirit; you have redeemed me, O LORD, faithful God.   - **Psalms 31:5 ESV**
+> Into your hand I commit my spirit; you have redeemed me, O LORD, faithful God.  - **Psalms 31:5 ESV**
 
 ### Verse for today
 

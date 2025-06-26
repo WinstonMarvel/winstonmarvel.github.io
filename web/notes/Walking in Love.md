@@ -13,7 +13,7 @@ Chesed - God's special kind of love - often translated steadfast love or lovingk
 
 Jesus Christ himself.
 
-1 John 4:9 - God sent his only begotten son 
+1 John 4:9 - God sent his only begotten son
 
 Examples of Love
 
@@ -21,11 +21,11 @@ Examples of Love
 
 - Jesus on the road to Emmaus and pretending (luke 24) -> they urged him strongly
 
-- Jesus pretending to be the gardner (John 20) 
+- Jesus pretending to be the gardner (John 20)
 
 - Jesus cooking fish for them (John 21)
 
-- Jesus showing the nail peirced hands to Thomas  (John 20)
+- Jesus showing the nail peirced hands to Thomas (John 20)
 
 - Jesus at the well with the woman (John 4)
 

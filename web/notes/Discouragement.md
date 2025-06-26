@@ -27,7 +27,7 @@ Matt 6:34 NIV Therefore do not worry about tomorrow, for tomorrow will worry abo
 
 Trust God for each day. What does this mean?
 
-- God let someone talk to me 
+- God let someone talk to me
 - Give me something joyful to look forward to at work today
 - I want to laugh at something just today
 
@@ -41,7 +41,6 @@ The Holy Spirit of God refreshes us. All our discouragement will turn into Joy. 
 #### Suffering (The flesh suffers when you are going the Spirit's direction)
 
 - Phillipians 1:29
-
 
 We are being conformed to the image of his son day by day
 

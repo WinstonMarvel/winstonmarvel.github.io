@@ -18,6 +18,6 @@ Acts 16 - Event though it's preaching, HS opposed
 
 - Holy spirit forbid them to speak the word in Asia
 
-- Spirit of Jesus did not allwo them to go into Bithynia 
+- Spirit of Jesus did not allwo them to go into Bithynia
 
-- Vision in the night:  Macedonian man, "come to macedonia and help us:
+- Vision in the night: Macedonian man, "come to macedonia and help us:

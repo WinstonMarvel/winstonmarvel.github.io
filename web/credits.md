@@ -1,19 +1,21 @@
 ---
 layout: layouts/default.liquid
 title: Credits
-tags: 
+tags:
 ---
 
 # Credits
 
 ### Icons
+
 - <a href="https://www.flaticon.com/free-icons/bible" title="bible icons">Bible icons created by juicy_fish - Flaticon</a>
 
 ### Images
+
 - Anxious Boy: Image by <a href="https://pixabay.com/users/17959117-17959117/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6204400">Urhan TV</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6204400">Pixabay</a>
 
-
 ### Images used in the Articles
+
 - Boy Swimming: Image by <a href="https://pixabay.com/users/michelle_maria-165491/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=921623">Michelle Raponi</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=921623">Pixabay</a>
 
 - Float: Image by <a href="https://pixabay.com/users/mariakray-23567841/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6810145">Maria</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6810145">Pixabay</a>
@@ -49,4 +51,5 @@ Image by <a href="https://pixabay.com/users/ambermb-3121132/?utm_source=link-att
 - Depressed: Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8628360">Mohamed Hassan</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8628360">Pixabay</a>
 
 ### Statistics<a name="stats"></a>
+
 - Statistics on pornography usage: <a href="https://link.springer.com/article/10.1007/s13178-022-00720-z">Article</a>

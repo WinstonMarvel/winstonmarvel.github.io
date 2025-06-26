@@ -1,10 +1,11 @@
 ---
 title: Suddenly, Surely and Simply
 date: 2024-03-09
-categories: ["Suffering","Hope", "Pain"]
+categories: ["Suffering", "Hope", "Pain"]
 tags: post
 featured_image: "man-in-the-fire.jpg"
 ---
+
 When we seek to understand God, we look to Jesus. Jesus, the Word made flesh who dwelt among us, perfectly represents God the Father. The Bible paints a beautiful picture of God through Jesus.
 
 So, who is this God the Father? Allow me to highlight three aspects that deeply resonate with me today.

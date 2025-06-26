@@ -1,7 +1,7 @@
 ---
 layout: layouts/default.liquid
 title: Privacy Policy
-tags: 
+tags:
 ---
 
 <h1>Privacy Policy for winstonjude.com</h1>
@@ -43,8 +43,6 @@ tags:
 <h2>Cookies and Web Beacons</h2>
 
 <p>Like any other website, winstonjude.com uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
-
-
 
 <h2>Advertising Partners Privacy Policies</h2>
 

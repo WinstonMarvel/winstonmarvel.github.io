@@ -1,7 +1,7 @@
 ---
 title: Why you cannot fail
 date: 2022-06-20
-categories: ["Holy Spirit","Dissapointment"]
+categories: ["Holy Spirit", "Dissapointment"]
 tags: post
 featured_image: "float.jpg"
 ---

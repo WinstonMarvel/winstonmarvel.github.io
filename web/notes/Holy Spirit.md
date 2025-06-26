@@ -8,7 +8,7 @@ featured_image: "placeholder.jpg"
 
 ### Who is he?
 
-- He is the spirit of the Father Matt 10:20  - compare with parallel in Luke where it says Holy Spirit and not Spirit of the Father
+- He is the spirit of the Father Matt 10:20 - compare with parallel in Luke where it says Holy Spirit and not Spirit of the Father
 - He's a gift - Receive the gift of the Holy Spirit Acts 2:38
 - Helper
 - Comforter (Acts 9:31)
@@ -93,7 +93,7 @@ What our spirit can do
 
 - Infilling of the Holy Spirit is not exactly only NT because Elizabeth was filled with the Holy Spirit in Luke 1:41, so was Zechariah and he prophesied Luke 1:67
 
-- Holy Sprit coming upon someone was not either because of Luke 2:25 and neither was the revelation by Holy Spirit 
+- Holy Sprit coming upon someone was not either because of Luke 2:25 and neither was the revelation by Holy Spirit
 
 - Spirit of God guides and teaches/instructs. He rarely tells us what to do. A guide is like a ruler, you use it to asses guidelines get direction. He is not controlling
 
@@ -101,7 +101,7 @@ What our spirit can do
 
 - And being fervent in spirit, he spoke and taught accurately the things concerning Jesus, though he knew only the baptism of John. Acts 18:25
 
-Holy spirit infilling and coming upon people is different 
+Holy spirit infilling and coming upon people is different
 
 ##### Baptism
 
@@ -113,45 +113,32 @@ Act_19:21  Now after these events Paul resolved in the Spirit to pass through M
 Act_20:22  And now, behold, I am going to Jerusalem, constrained by the Spirit, not knowing what will happen to me there,
 Act_20:23  except that the Holy Spirit testifies to me in every city that imprisonment and afflictions await me.
 
-- Act_21:4  And having sought out the disciples, we stayed there for seven days. And through the Spirit they were telling Paul not to go on to Jerusalem.  - What do you mean through the Spirit?
+- Act_21:4  And having sought out the disciples, we stayed there for seven days. And through the Spirit they were telling Paul not to go on to Jerusalem. - What do you mean through the Spirit?
 
 ## How the Holy Spirit leads us
 
-- He leads us through his Word (His word is a lamp unto my feet and a light unto my path). If it contradicts God's word then it's not from him. 
+- He leads us through his Word (His word is a lamp unto my feet and a light unto my path). If it contradicts God's word then it's not from him.
 
 - He gives us Spiritual wisdom not as the world (Very importantly not "divided thoughts" which is wordly wisdom)
-  
-  - Christ is our wisdom. He is the wisdom of God. His spirit rests on us.
-  
-  - Pro_24:3  By wisdom a house is built, and by understanding it is established;
-  
-  - Isa_11:2  And the Spirit of the LORD shall rest upon him, the Spirit of wisdom and understanding, the Spirit of counsel and might, the Spirit of knowledge and the fear of the LORD.
-    
-    - But the wisdom from above is first pure, then peaceable, gentle, open to reason, full of mercy and good fruits, impartial and sincere. James 1:5
+    - Christ is our wisdom. He is the wisdom of God. His spirit rests on us.
+    - Pro_24:3  By wisdom a house is built, and by understanding it is established;
+    - Isa_11:2  And the Spirit of the LORD shall rest upon him, the Spirit of wisdom and understanding, the Spirit of counsel and might, the Spirit of knowledge and the fear of the LORD.
+        - But the wisdom from above is first pure, then peaceable, gentle, open to reason, full of mercy and good fruits, impartial and sincere. James 1:5
 
 - He does not lead us through the thought realm
-  
-  - We walk by faith not by sight
-  
-  - Notice in Luke 12 that Jesus says that take no thought (KJV) or be anxious(other translations). The root of the word merismos is G3307 which means to be cut into pieces / divided. It is the same word used when Jesus says how can a divided Kingdom stand or divided the land for the brother.
-    He leads us through the clarity of thought and conviction. In the thought realm, there is no unity but always division. But in the realm of faith working through love (Gal 5:6) there is a conviction of things hoped for and seen in the Word. 
+    - We walk by faith not by sight
+    - Notice in Luke 12 that Jesus says that take no thought (KJV) or be anxious(other translations). The root of the word merismos is G3307 which means to be cut into pieces / divided. It is the same word used when Jesus says how can a divided Kingdom stand or divided the land for the brother.
+      He leads us through the clarity of thought and conviction. In the thought realm, there is no unity but always division. But in the realm of faith working through love (Gal 5:6) there is a conviction of things hoped for and seen in the Word.
 
 - The Spirit itself bears witness with our Spirit crying Abba Father
-  
-  - The spirit of man *is* the candle of the LORD, searching all the inward parts of the belly.  (inward parts of the belly is often used as the "seat of thought" in Strongs)
+    - The spirit of man *is* the candle of the LORD, searching all the inward parts of the belly. (inward parts of the belly is often used as the "seat of thought" in Strongs)
 
 - He manifests himself to us when we walk in Love and trust him
-  
-  - In worship, when his presence is strong. What is hesaying
+    - In worship, when his presence is strong. What is hesaying
 
 - Col 2:23 - Wisdom stops the flesh? what stops it
-  
-  - Thinking things above (Col 3: 1-5)
-    
-    - Seeking Kingdom culture where things are at the right hand of God the father
-    
-    - Seeking things where Christ is. Look at your problems from being raised with Christ, seated at the right hand and exercise authority down onto your problem
-    
-    - Realising we are dead and my life is securely hidden in Christ 
-    
-    - Being aware that we will succeed anyway because our lives arte hidden in God
+    - Thinking things above (Col 3: 1-5)
+        - Seeking Kingdom culture where things are at the right hand of God the father
+        - Seeking things where Christ is. Look at your problems from being raised with Christ, seated at the right hand and exercise authority down onto your problem
+        - Realising we are dead and my life is securely hidden in Christ
+        - Being aware that we will succeed anyway because our lives arte hidden in God
