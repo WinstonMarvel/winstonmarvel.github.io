@@ -6,6 +6,7 @@ const { execSync } = require("child_process")
 const fs = require("fs")
 const path = require("path")
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img")
+const pluginPurgeCSS = require("eleventy-plugin-purgecss")
 
 module.exports = (eleventyConfig) => {
     // Global data variables
@@ -60,7 +61,6 @@ module.exports = (eleventyConfig) => {
 
     // Copy the `pdf` downloads folders to the output
     eleventyConfig.addPassthroughCopy("web/downloads/pdf")
-    // eleventyConfig.addPassthroughCopy("web/img")
 
     eleventyConfig.addPlugin(pluginNavigation)
 
@@ -83,6 +83,13 @@ module.exports = (eleventyConfig) => {
             stdio: "inherit",
         })
     })
+    if (process.env.NODE_ENV === "production") {
+        eleventyConfig.addPlugin(pluginPurgeCSS, {
+            config: "./purgecss.config.js",
+            quiet: false,
+        }) // Removes unused CSS
+    }
+    eleventyConfig.addWatchTarget("./_site/css/style.css") // For live reload
 
     // Post excerpts
     eleventyConfig.addShortcode("excerpt", (article) => extractExcerpt(article))

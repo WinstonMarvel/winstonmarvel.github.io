@@ -20,7 +20,7 @@ title: Welcome
 
 <section class="section is-small bg-custom-grey section-youtube-video">
     <div class="center">
-        <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/LQO3YYb6k3g?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <lite-youtube videoid="LQO3YYb6k3g" style="background-image: url('https://i.ytimg.com/vi/LQO3YYb6k3g/maxresdefault.jpg');" playlabel="Play: Welcome" ></lite-youtube>
     </div>
 </section>
 
@@ -132,4 +132,5 @@ title: Welcome
     </div>
 </section>
 
-
+<script type="module" src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/+esm" async></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.css" />
