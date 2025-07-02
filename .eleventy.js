@@ -43,7 +43,7 @@ module.exports = (eleventyConfig) => {
         return generateCategoryToPostMapping(posts)
     })
 
-    if (process.env.NODE_ENV === "production") {
+    if (process.env.ELEVENTY_ENV === "production") {
         // Compile SCSS during build
         eleventyConfig.on("beforeBuild", () => {
             execSync("node compileSass.js", {
