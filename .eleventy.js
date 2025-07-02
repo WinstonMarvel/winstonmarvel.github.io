@@ -25,40 +25,6 @@ module.exports = (eleventyConfig) => {
         }
     })
 
-    // Minify HTML
-    eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-        if (outputPath && outputPath.endsWith(".html")) {
-            return htmlmin.minify(content, {
-                removeComments: true,
-                collapseWhitespace: true,
-                minifyCSS: true,
-                minifyJS: true,
-            })
-        }
-        return content
-    })
-
-    // Optimize images
-    eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-        formats: ["avif", "webp", "jpeg"],
-        extensions: "html",
-        widths: [320, 640, 960, 1280, null],
-        // Attributes assigned on <img> nodes override these values
-        htmlOptions: {
-            imgAttributes: {
-                loading: "lazy",
-                decoding: "async",
-            },
-            pictureAttributes: {},
-        },
-        filenameFormat: function (id, src, width, format) {
-            const extension = path.extname(src)
-            const name = path.basename(src, extension)
-            // Return the filename in the format: name-widthw.format
-            return `${name}-${width}w.${format}`
-        },
-    })
-
     // Copy the `pdf` downloads folders to the output
     eleventyConfig.addPassthroughCopy("web/downloads/pdf")
 
@@ -77,22 +43,61 @@ module.exports = (eleventyConfig) => {
         return generateCategoryToPostMapping(posts)
     })
 
-    // Compile SCSS
-    eleventyConfig.on("beforeBuild", () => {
-        execSync("node compileSass.js", {
-            stdio: "inherit",
-        })
-    })
     if (process.env.NODE_ENV === "production") {
+        // Compile SCSS during build
+        eleventyConfig.on("beforeBuild", () => {
+            execSync("node compileSass.js", {
+                stdio: "inherit",
+            })
+        })
+
+        // Removes unused CSS
         eleventyConfig.addPlugin(pluginPurgeCSS, {
             config: "./purgecss.config.js",
             quiet: false,
-        }) // Removes unused CSS
+        })
+
+        // Optimize images
+        eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+            formats: ["avif", "webp", "jpeg"],
+            extensions: "html",
+            widths: [320, 640, 960, 1280, null],
+            // Attributes assigned on <img> nodes override these values
+            htmlOptions: {
+                imgAttributes: {
+                    loading: "lazy",
+                    decoding: "async",
+                },
+                pictureAttributes: {},
+            },
+            filenameFormat: function (id, src, width, format) {
+                const extension = path.extname(src)
+                const name = path.basename(src, extension)
+                // Return the filename in the format: name-widthw.format
+                return `${name}-${width}w.${format}`
+            },
+        })
+
+        // Minify HTML
+        eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+            if (outputPath && outputPath.endsWith(".html")) {
+                return htmlmin.minify(content, {
+                    removeComments: true,
+                    collapseWhitespace: true,
+                    minifyCSS: true,
+                    minifyJS: true,
+                })
+            }
+            return content
+        })
     }
     eleventyConfig.addWatchTarget("./_site/css/style.css") // For live reload
 
     // Post excerpts
     eleventyConfig.addShortcode("excerpt", (article) => extractExcerpt(article))
+
+    // Exclude 'notes' folder from all collections and output
+    eleventyConfig.ignores.add("notes/**")
 
     return {
         dir: {
