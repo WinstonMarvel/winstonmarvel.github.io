@@ -42,7 +42,6 @@
                         <ul class="navbar-end">
                             <li class="navbar-item"><a href="/">Home</a></li>
                             <li class="navbar-item"><a href="/posts">Posts</a></li>
-                            <li class="navbar-item"><a href="/notes">Bible Notes</a></li>
                             <li class="navbar-item"><a href="/resources">Resources</a></li>
                             <li class="navbar-item"><a href="/#About">About</a></li>
                             <li class="navbar-item"><a href="/#Contact">Contact</a></li>
@@ -64,25 +63,17 @@
         <div class="container is-max-desktop py-5 px-4 mb-5"> 
             <div class="footer-nav columns is-justify-content-space-between">
                 <div class="column is-3">
-                    <h4 class="subtitle is-4">Links</h4>
-                    <a href="/#About">About</a>
-                    <a href="/resources">Resources</a>
-                    <a href="/#Contact">Hire me!</a>   
-                    <a href="/#Contact">Contact</a>
-                </div>
-                <div class="column is-3">
-                    <h4 class="subtitle is-4">Categories</h4>
+                    <h4 class="subtitle is-4">Post Categories</h4>
                     {% for category in collections.categories reversed limit:6 %}
                         <a href="/categories#{{category.title | slugify }}">{{ category.title }}</a>
                     {% endfor %}
                     <a href="/categories/">See all...</a>
                 </div>
-                <div class="column is-3">
-                    <h4 class="subtitle is-4">Bible Notes</h4>
-                    {% for note in collections.notes reversed limit:6 %}
-                        <a href="{{note.url}}">{{ note.data.title }}</a>
-                    {% endfor %}
-                    <a href="/notes/">See all...</a>
+                 <div class="column is-3">
+                    <h4 class="subtitle is-4">Quick Links</h4>
+                    <a href="/#About">About</a>
+                    <a href="/resources">Resources</a>
+                    <a href="/#Contact">Contact</a>
                 </div>
             </div>
         </div>
@@ -92,12 +83,13 @@
                 <a href="https://twitter.com/WinstonMarvel" target="_blank"><i class="fab fa-twitter fa-xl px-1"></i></a>
                 <a href="https://www.linkedin.com/in/winstonmarvel" target="_blank"><i class="fab fa-linkedin fa-xl px-1"></i></a>
                 <a href="https://github.com/winstonmarvel" target="_blank"><i class="fab fa-github fa-xl px-1"></i></a>
+                <a href="https://www.instagram.com/winstonmarvel" target="_blank"><i class="fab fa-instagram fa-xl px-1"></i></a>
             </p>
             
             <p class="is-size-7">The source code is licensed
             <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>. The website content
             is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY NC SA 4.0</a>.</p>
-            <p class="is-size-7 pt-0 mt-0">Winston Jude 2024</p>
+            <p class="is-size-7 pt-0 mt-0">Winston Jude 2025</p>
         </div>
     </footer>
 
