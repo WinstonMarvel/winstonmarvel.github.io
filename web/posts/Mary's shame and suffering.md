@@ -32,21 +32,21 @@ Let's pause here and ask ourselves a few important questions:
 
 - During the 30 years where Jesus hadn't begun his ministry - How many times did Joseph doubt his wife's integrity? How much faith did it take on Mary's part to still continue to believe that he was the Messiah? What were the struggles of faith they had to deal with?
 
-## The Single Mom
+## Pregnant and Betrothed - The Single Mom
 
 I always wonder why Jesus was born to Mary, a single mom of some sorts. It's astounding to me that Mary walked around pregnant when she was not yet married, and this was by God's divine design and purposes. Could we show some more compassion to the single moms today? Was God trying to make a point here? He's not just the God of those who have perfect lives. He's the God of those who have broken his laws; he's the God of those who have lived lives that do not reflect his perfect will; he's the God of both Israel (the chosen) and Jacob (the cheater).
 
 How judgmental are we Christians to turn a blind eye to the suffering single moms? Jesus is here for the single moms, the divorced, the widowed, the neglected, the poor. He is so intimate with our pain. I wonder what He would do if he were here today - would he not skip across all the Pharisee-like churchgoing folk to meet and dine with those we reject and judge?
 
-## The 'Bastard' Child
+## The Messiah Child of Questioned Origins
 
-I wonder how many times Jesus was called a bastard child as he grew up.
+I wonder how many times Jesus was ridiculed and mocked writh respect to who His father was.
 
 I want to remind us that it's really easy to look in hindsight and attribute hidden prophecies to the Messiah. But most commoners at that time would not have been aware that the Messiah was to be born to a virgin. Nobody had a Bible like us. Besides, have you ever wondered how hard it is to interpret the Book of Revelation? Prophecy makes sense when we look at it in hindsight. But in foresight, this can be so confusing that we often ignore these poetic, strange writings that don't seem to make sense.
 
-I wonder how many people mocked and laughed at Mary's defense that she was a virgin. I wonder how many times Joseph thought she was lying. Besides, Joseph was expected to trust his wife with just one dream he received from God (Matthew 1:20).
+I wonder how many people mocked and laughed at Mary's defense that she was a virgin. I wonder how many times Joseph thought she was lying. Besides, Joseph was perhaps expected to trust his wife with just one dream he received from God (Matthew 1:20).
 
-This was no ordinary birth. The bastard child was probably his second name as he grew up. If the devil persecutes unrighteous you and me, don't you think it must have been incredibly hard for the Son of God? Was he not called a man of sorrows? I wonder if that was also because of the unspeakable mockery that he had to face.
+This was no ordinary birth. 'Son of a controversial birth' (today's 'bastard' child) was probably his second name as he grew up. If the devil persecutes unrighteous you and me, don't you think it must have been incredibly hard for the Son of God? Was he not called a man of sorrows? I wonder if that was also because of the unspeakable mockery that he had to face.
 
 ## You're Not Alone
 
