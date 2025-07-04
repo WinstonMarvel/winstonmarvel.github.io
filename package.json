@@ -7,7 +7,7 @@
         "build": "npx @11ty/eleventy",
         "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
         "watch": "npx @11ty/eleventy --watch",
-        "watch:sass": "chokidar web/scss/**/*.sass -c \"node compileSass.js\"",
+        "watch:sass": "node compileSass.js && chokidar web/scss/**/*.sass -c \"node compileSass.js\"",
         "serve": "npx @11ty/eleventy --serve",
         "dev": "npm-run-all -p watch watch:sass serve",
         "debug": "DEBUG=* npx @11ty/eleventy",

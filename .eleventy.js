@@ -90,6 +90,9 @@ module.exports = (eleventyConfig) => {
             }
             return content
         })
+    } else {
+        // Development mode: copy Images without optimization
+        eleventyConfig.addPassthroughCopy("web/img")
     }
     eleventyConfig.addWatchTarget("./_site/css/style.css") // For live reload
 
