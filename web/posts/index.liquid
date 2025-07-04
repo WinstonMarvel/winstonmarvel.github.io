@@ -11,10 +11,9 @@ permalink: "/posts/"
         {% for post in collections.post reversed %}
             
             {% if post.data.featured_image %}
-                {% assign base_image = post.data.featured_image | remove: '.jpg' | remove: '.jpeg' %}
-                {% assign image_path = "/img/" | append: base_image | append: "-320w.jpeg" %}
+                {% assign image_path = post.data.featured_image | imgUrl: 320, 'jpeg' %}
             {% else %}
-                {% assign image_path = "/img/placeholder-320w.webp" %}
+                {% assign image_path = "placeholder.jpg" | imgUrl: 320, 'jpeg' %}
             {% endif %} 
 
             <a href="{{post.url}}" class="box">

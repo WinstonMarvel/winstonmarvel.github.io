@@ -13,16 +13,16 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{baseURL}}{{ page.url }}">
   <meta property="og:description" content="Winston's Bible reflections">
-  <meta property="og:image" content="{% if featured_image %}{{baseURL}}/img/blog/{{ featured_image }}{% else %}{{baseURL}}/img/blog/placeholder-cross.jpg{% endif %}">
+  <meta property="og:image" content="{% if featured_image %}{{featured_image | imgUrl: 320, 'jpeg'}}{% else %}{{'placeholder-cross' | imgUrl: 320, 'jpeg'}}{% endif %}">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-  <link rel="manifest" href="/img/site.webmanifest">
-  <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="/img/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/favicon.ico">
   <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-config" content="/img/browserconfig.xml">
+  <meta name="msapplication-config" content="/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href= {{'"/css/style.css"'}} />

@@ -74,8 +74,21 @@ module.exports = (eleventyConfig) => {
                 const extension = path.extname(src)
                 const name = path.basename(src, extension)
                 // Return the filename in the format: name-widthw.format
-                return `${name}-${width}w.${format}`
+                return createImageFileName(name, format, width)
             },
+        })
+
+        // Copy meta assets (favicons, og image, etc.) to root
+        eleventyConfig.on("beforeBuild", () => {
+            const sourceDir = path.join(__dirname, "web/meta")
+            const outputDir = path.join(__dirname, "_site")
+
+            if (fs.existsSync(sourceDir)) {
+                const files = fs.readdirSync(sourceDir)
+                files.forEach((file) => {
+                    fs.copyFileSync(path.join(sourceDir, file), path.join(outputDir, file))
+                })
+            }
         })
 
         // Minify HTML
@@ -101,6 +114,9 @@ module.exports = (eleventyConfig) => {
 
     // Exclude 'notes' folder from all collections and output
     eleventyConfig.ignores.add("notes/**")
+
+    // Add a shortcode to get Image URL after optimization
+    eleventyConfig.addFilter("imgUrl", getImageURL)
 
     return {
         dir: {
@@ -159,4 +175,27 @@ function generateCategoryToPostMapping(posts) {
     }
 
     return simplifiedOutput
+}
+
+// Get an image URL of an image after optimization is complete with correct width and format
+// This is not a very useful function. Todo: Rethink and improve.
+function getImageURL(imgPath, width, format = "webp") {
+    if (!imgPath) return ""
+
+    const originalFileName = imgPath.split(".")[0]
+    const resultFileName = createImageFileName(originalFileName, format, width)
+
+    const resultFilePath = path.join(__dirname, "_site", "img", resultFileName)
+
+    if (!fs.existsSync(resultFilePath)) {
+        throw new Error(`Image file not found in /img: ${resultFileName}. If in dev mode, try building first.`)
+    }
+
+    return `/img/${resultFileName}`
+}
+
+// Generates a filename for images in the format: name-widthw.format
+function createImageFileName(name, format, width) {
+    // Return the filename in the format: name-widthw.format
+    return `${name}-${width}w.${format}`
 }
