@@ -188,7 +188,7 @@ function getImageURL(imgPath, width, format = "webp") {
     const resultFilePath = path.join(__dirname, "_site", "img", resultFileName)
 
     if (!fs.existsSync(resultFilePath)) {
-        throw new Error(`Image file not found in /img: ${resultFileName}. If in dev mode, try building first.`)
+        console.warn(`Image file not found in /img: ${resultFileName}.`)
     }
 
     return `/img/${resultFileName}`
